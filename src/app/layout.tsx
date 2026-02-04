@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Página de Destino Orbital',
-  description: 'Transformando tu presencia digital con soluciones innovadoras.',
+  title: 'Orbital - Lanza tu Negocio a la Estratosfera Digital',
+  description: 'Soluciones de software y diseño que te ponen en órbita. Creamos experiencias digitales que cautivan, convierten y crecen contigo.',
 };
 
 export default function RootLayout({

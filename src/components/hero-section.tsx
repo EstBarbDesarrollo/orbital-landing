@@ -7,18 +7,18 @@ export function HeroSection() {
       <div className="container text-center">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tighter text-primary font-headline">
-            Navega el Cosmos Digital
+            Lanzamos tu Negocio a la Estratosfera Digital
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Impulsamos tu negocio hacia una nueva órbita de éxito con transformación digital a medida y soluciones innovadoras.
+            Soluciones de software y diseño que te ponen en órbita. Creamos experiencias digitales que cautivan, convierten y crecen contigo.
           </p>
         </div>
         <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
           <Button size="lg" asChild>
-            <Link href="#contact">Comienza Tu Viaje</Link>
+            <Link href="#contact">Despega Ahora</Link>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <Link href="#features">Explorar Características</Link>
+            <Link href="#features">Explora Servicios</Link>
           </Button>
         </div>
       </div>

@@ -1,21 +1,20 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Rocket, ShieldCheck, TrendingUp } from 'lucide-react';
+import { Orbit, Code, Scaling } from 'lucide-react';
 
 const features = [
   {
-    icon: <Rocket className="h-10 w-10 text-accent" />,
-    title: 'Despliegue Rápido',
-    description: 'Lanza tus proyectos más rápido que nunca con nuestro proceso de desarrollo optimizado y una infraestructura robusta.',
+    icon: <Code className="h-8 w-8 text-accent" />,
+    title: 'Desarrollo a Medida',
+    description: 'Construimos aplicaciones web y móviles robustas, escalables y seguras, perfectamente alineadas con tus objetivos de negocio.',
   },
   {
-    icon: <ShieldCheck className="h-10 w-10 text-accent" />,
-    title: 'Seguridad Férrea',
-    description: 'Protege tus datos y a tus clientes con características de seguridad de nivel empresarial integradas en cada capa.',
+    icon: <Orbit className="h-8 w-8 text-accent" />,
+    title: 'Diseño de Experiencias',
+    description: 'Creamos interfaces de usuario intuitivas y atractivas que deleitan a tus usuarios y reflejan la identidad de tu marca.',
   },
   {
-    icon: <TrendingUp className="h-10 w-10 text-accent" />,
-    title: 'Crecimiento Escalable',
-    description: 'Nuestras soluciones están diseñadas para crecer con tu negocio, asegurando que siempre estés listo para el siguiente nivel.',
+    icon: <Scaling className="h-8 w-8 text-accent" />,
+    title: 'Estrategia de Crecimiento',
+    description: 'Te ayudamos a definir tu hoja de ruta digital, optimizar tu presencia online y escalar tus operaciones de forma sostenible.',
   },
 ];
 
@@ -23,28 +22,28 @@ export function ValuePropSection() {
   return (
     <section id="features" className="py-20 bg-secondary">
       <div className="container">
-        <div className="text-center mb-12">
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
-            ¿Por Qué Elegir Orbital?
+            Nuestra Plataforma de Lanzamiento
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Proporcionamos las herramientas y la experiencia para elevar tu presencia digital.
+            Todo lo que necesitas para construir, lanzar y hacer crecer tu imperio digital.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {features.map((feature) => (
-            <Card key={feature.title} className="text-center group hover:shadow-lg transition-shadow">
-              <CardHeader className="items-center">
-                <div className="p-4 bg-primary/10 rounded-full mb-4 group-hover:scale-110 transition-transform">
+        <div className="max-w-4xl mx-auto">
+          <ul className="space-y-16">
+            {features.map((feature, index) => (
+              <li key={feature.title} className={`flex flex-col gap-6 sm:flex-row sm:gap-10 items-center ${index % 2 !== 0 ? 'sm:flex-row-reverse' : ''}`}>
+                <div className="flex-shrink-0 p-5 bg-background rounded-full shadow-lg">
                   {feature.icon}
                 </div>
-                <CardTitle className="font-headline">{feature.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{feature.description}</p>
-              </CardContent>
-            </Card>
-          ))}
+                <div className={`text-center ${index % 2 === 0 ? 'sm:text-left' : 'sm:text-right'}`}>
+                  <h3 className="text-2xl font-bold font-headline mb-3">{feature.title}</h3>
+                  <p className="text-muted-foreground text-lg">{feature.description}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
