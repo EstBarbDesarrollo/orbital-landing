@@ -3,18 +3,18 @@ import { Card, CardContent, CardHeader } from './ui/card';
 const processSteps = [
   {
     step: '01',
-    title: 'Discovery & Strategy',
-    description: 'We begin by understanding your vision and goals, mapping out a strategic plan for digital success.',
+    title: 'Descubrimiento y Estrategia',
+    description: 'Comenzamos entendiendo tu visión y metas, trazando un plan estratégico para el éxito digital.',
   },
   {
     step: '02',
-    title: 'Design & Development',
-    description: 'Our team crafts a beautiful, functional, and scalable solution tailored to your specific needs.',
+    title: 'Diseño y Desarrollo',
+    description: 'Nuestro equipo crea una solución hermosa, funcional y escalable adaptada a tus necesidades específicas.',
   },
   {
     step: '03',
-    title: 'Launch & Optimization',
-    description: 'We deploy your project and continuously monitor performance to ensure optimal results and growth.',
+    title: 'Lanzamiento y Optimización',
+    description: 'Desplegamos tu proyecto y monitoreamos continuamente el rendimiento para asegurar resultados óptimos y crecimiento.',
   },
 ];
 
@@ -24,10 +24,10 @@ export function TransformationProcessSection() {
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
-            Our Digital Transformation Process
+            Nuestro Proceso de Transformación Digital
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            A proven path to launching your business into the digital future.
+            Un camino probado para lanzar tu negocio hacia el futuro digital.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

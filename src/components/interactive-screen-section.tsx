@@ -11,36 +11,36 @@ import { Cpu, Users2, BarChart, Settings, ArrowRight } from 'lucide-react';
 const screenItems = [
   {
     id: 'item-1',
-    title: 'Advanced Dashboard',
-    description: 'Monitor your KPIs in real-time.',
+    title: 'Panel de Control Avanzado',
+    description: 'Monitorea tus KPIs en tiempo real.',
     icon: <BarChart className="h-6 w-6" />,
     imageId: 'interactive-screen-1',
   },
   {
     id: 'item-2',
-    title: 'User Management',
-    description: 'Easily manage roles and permissions.',
+    title: 'Gestión de Usuarios',
+    description: 'Gestiona fácilmente roles y permisos.',
     icon: <Users2 className="h-6 w-6" />,
     imageId: 'interactive-screen-2',
   },
   {
     id: 'item-3',
-    title: 'AI-Powered Insights',
-    description: 'Leverage machine learning for growth.',
+    title: 'Estadísticas Potenciadas por IA',
+    description: 'Aprovecha el aprendizaje automático para el crecimiento.',
     icon: <Cpu className="h-6 w-6" />,
     imageId: 'interactive-screen-3',
   },
   {
     id: 'item-4',
-    title: 'Deep Analytics',
-    description: 'Understand your users like never before.',
+    title: 'Análisis Profundo',
+    description: 'Entiende a tus usuarios como nunca antes.',
     icon: <BarChart className="h-6 w-6" />,
     imageId: 'interactive-screen-4',
   },
   {
     id: 'item-5',
-    title: 'Custom Settings',
-    description: 'Tailor the platform to your needs.',
+    title: 'Configuraciones Personalizadas',
+    description: 'Adapta la plataforma a tus necesidades.',
     icon: <Settings className="h-6 w-6" />,
     imageId: 'interactive-screen-5',
   },
@@ -56,10 +56,10 @@ export function InteractiveScreenSection() {
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
-            A Control Center for Your Universe
+            Un Centro de Control para Tu Universo
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our platform provides a comprehensive suite of tools to manage and grow your business.
+            Nuestra plataforma proporciona un conjunto completo de herramientas para gestionar y hacer crecer tu negocio.
           </p>
         </div>
 

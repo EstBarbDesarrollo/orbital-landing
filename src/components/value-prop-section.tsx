@@ -4,18 +4,18 @@ import { Rocket, ShieldCheck, TrendingUp } from 'lucide-react';
 const features = [
   {
     icon: <Rocket className="h-10 w-10 text-accent" />,
-    title: 'Rapid Deployment',
-    description: 'Launch your projects faster than ever with our streamlined development process and robust infrastructure.',
+    title: 'Despliegue Rápido',
+    description: 'Lanza tus proyectos más rápido que nunca con nuestro proceso de desarrollo optimizado y una infraestructura robusta.',
   },
   {
     icon: <ShieldCheck className="h-10 w-10 text-accent" />,
-    title: 'Ironclad Security',
-    description: 'Protect your data and your customers with enterprise-grade security features built into every layer.',
+    title: 'Seguridad Férrea',
+    description: 'Protege tus datos y a tus clientes con características de seguridad de nivel empresarial integradas en cada capa.',
   },
   {
     icon: <TrendingUp className="h-10 w-10 text-accent" />,
-    title: 'Scalable Growth',
-    description: 'Our solutions are designed to grow with your business, ensuring you\'re always ready for the next level.',
+    title: 'Crecimiento Escalable',
+    description: 'Nuestras soluciones están diseñadas para crecer con tu negocio, asegurando que siempre estés listo para el siguiente nivel.',
   },
 ];
 
@@ -25,10 +25,10 @@ export function ValuePropSection() {
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
-            Why Choose Orbital?
+            ¿Por Qué Elegir Orbital?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            We provide the tools and expertise to elevate your digital presence.
+            Proporcionamos las herramientas y la experiencia para elevar tu presencia digital.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

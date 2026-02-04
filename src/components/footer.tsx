@@ -15,7 +15,7 @@ export function Footer() {
               <OrbitalLogo />
             </Link>
             <p className="max-w-sm text-secondary-foreground">
-              Revolutionizing digital landscapes with cutting-edge technology and design.
+              Revolucionando los paisajes digitales con tecnología y diseño de vanguardia.
             </p>
           </div>
           <div className="flex items-center gap-4">
@@ -37,7 +37,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>&copy; {currentYear} Orbital Inc. All rights reserved.</p>
+          <p>&copy; {currentYear} Orbital Inc. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
