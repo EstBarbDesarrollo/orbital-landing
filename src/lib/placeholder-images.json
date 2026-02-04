@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "interactive-screen-1",
+      "description": "A dashboard showing key performance indicators.",
+      "imageUrl": "https://images.unsplash.com/photo-1748439281934-2803c6a3ee36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkYXNoYm9hcmQlMjBjaGFydHxlbnwwfHx8fDE3NzAxMzQ5Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard chart"
+    },
+    {
+      "id": "interactive-screen-2",
+      "description": "A user profile page with statistics.",
+      "imageUrl": "https://images.unsplash.com/photo-1761857352384-aaae23a714a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9maWxlJTIwc3RhdGlzdGljc3xlbnwwfHx8fDE3NzAyMjA4ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile statistics"
+    },
+    {
+      "id": "interactive-screen-3",
+      "description": "A collaborative workspace with a Kanban board.",
+      "imageUrl": "https://images.unsplash.com/photo-1590402494587-44b71d7772f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrYW5iYW4lMjBib2FyZHxlbnwwfHx8fDE3NzAyMjA4ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kanban board"
+    },
+    {
+      "id": "interactive-screen-4",
+      "description": "An analytics chart showing growth over time.",
+      "imageUrl": "https://images.unsplash.com/photo-1736751035793-353baaa416cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhbmFseXRpY3MlMjBjaGFydHxlbnwwfHx8fDE3NzAxNTQ2OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "analytics chart"
+    },
+    {
+      "id": "interactive-screen-5",
+      "description": "A settings page for application preferences.",
+      "imageUrl": "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzZXR0aW5ncyUyMGludGVyZmFjZXxlbnwwfHx8fDE3NzAyMjA4ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "settings interface"
+    },
+    {
+      "id": "rotating-card-1",
+      "description": "An abstract image representing innovation.",
+      "imageUrl": "https://images.unsplash.com/photo-1626908013943-df94de54984c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBpbm5vdmF0aW9ufGVufDB8fHx8MTc3MDIwMjU2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract innovation"
+    },
+    {
+      "id": "rotating-card-2",
+      "description": "A picture of a team collaborating.",
+      "imageUrl": "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NzAxNDA1Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "rotating-card-3",
+      "description": "A futuristic city skyline.",
+      "imageUrl": "https://images.unsplash.com/photo-1535391879778-3bae11d29a24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIwY2l0eXxlbnwwfHx8fDE3NzAxODQ4NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "futuristic city"
+    }
+  ]
 }
