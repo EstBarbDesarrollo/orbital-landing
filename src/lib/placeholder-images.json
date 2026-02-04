@@ -11,6 +11,24 @@
       "description": "Una pantalla de laptop mostrando un panel de control de aplicación analítica.",
       "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e28f81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NzAzNDgwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dashboard ui"
+    },
+    {
+      "id": "process-1",
+      "description": "Una reunión de equipo discutiendo ideas en una pizarra.",
+      "imageUrl": "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fDE3NzAxMjAyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team meeting"
+    },
+    {
+      "id": "process-2",
+      "description": "Una persona configurando un sistema en una computadora.",
+      "imageUrl": "https://images.unsplash.com/photo-1549365811-e406a3923c99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzeXN0ZW0lMjBzZXR1cHxlbnwwfHx8fDE3NzAyMjIxNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "system setup"
+    },
+    {
+      "id": "process-3",
+      "description": "Un documento con un sello de aprobación.",
+      "imageUrl": "https://images.unsplash.com/photo-1603796846097-bee99e4a601f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZWdhbCUyMGRvY3VtZW50fGVufDB8fHx8MTc3MDE0NDIyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "legal document"
     }
   ]
 }

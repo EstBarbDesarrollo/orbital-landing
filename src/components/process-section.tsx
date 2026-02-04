@@ -1,21 +1,24 @@
-import { Card, CardContent } from './ui/card';
-import { Building2, Settings2, ShieldCheck } from 'lucide-react';
+import { RotatingCard } from './rotating-card';
+import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 
 const steps = [
   {
-    number: '1',
+    number: '01',
     title: 'Conocemos tu institución',
-    icon: <Building2 className="w-10 h-10 text-primary" />,
+    text: 'Analizamos en profundidad la estructura y necesidades de tu organización para ofrecerte una solución a medida.',
+    imageId: 'process-1',
   },
   {
-    number: '2',
+    number: '02',
     title: 'Implementamos la plataforma',
-    icon: <Settings2 className="w-10 h-10 text-primary" />,
+    text: 'Configuramos Orbital para que se integre perfectamente con tus procesos existentes, garantizando una transición fluida.',
+    imageId: 'process-2',
   },
   {
-    number: '3',
+    number: '03',
     title: 'Gestionás con respaldo',
-    icon: <ShieldCheck className="w-10 h-10 text-primary" />,
+    text: 'Te acompañamos en cada paso, brindando soporte constante y la seguridad jurídica que solo Estudio Barbosa puede ofrecer.',
+    imageId: 'process-3',
   },
 ];
 
@@ -31,18 +34,21 @@ export function ProcessSection() {
             Tres pasos para transformar tu administración administrativa con el respaldo técnico de Orbital y el acompañamiento de Estudio Barbosa.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          {steps.map((step) => (
-            <Card key={step.number} className="text-center p-8">
-              <div className="relative inline-block">
-                <span className="text-8xl font-extrabold text-secondary">{step.number}</span>
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background p-2 rounded-full">
-                    {step.icon}
-                </div>
-              </div>
-              <h3 className="text-xl font-bold mt-4">{step.title}</h3>
-            </Card>
-          ))}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          {steps.map((step) => {
+            const image = PlaceHolderImages.find(img => img.id === step.imageId) as ImagePlaceholder;
+            return (
+              image && (
+                <RotatingCard
+                  key={step.number}
+                  number={step.number}
+                  title={step.title}
+                  text={step.text}
+                  image={image}
+                />
+              )
+            );
+          })}
         </div>
       </div>
     </section>
