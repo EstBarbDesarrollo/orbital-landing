@@ -12,7 +12,7 @@ export function OrbitalLogo(props: SVGProps<SVGSVGElement>) {
       <text
         x="60"
         y="32"
-        fontFamily="var(--font-headline), sans-serif"
+        fontFamily="Montserrat, sans-serif"
         fontSize="30"
         fontWeight="bold"
         fill="currentColor"

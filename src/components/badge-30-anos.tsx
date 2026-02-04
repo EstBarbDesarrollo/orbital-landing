@@ -9,10 +9,10 @@ export function Badge30Anos(props: SVGProps<SVGSVGElement>) {
         </defs>
         <circle cx="50" cy="50" r="48" fill="#FDB813"/>
         <circle cx="50" cy="50" r="42" fill="none" stroke="#FFFFFF" strokeWidth="2"/>
-        <text fill="#000000" fontSize="28" fontWeight="bold" textAnchor="middle" x="50" y="58">
+        <text fontFamily="Montserrat, sans-serif" fill="#000000" fontSize="28" fontWeight="bold" textAnchor="middle" x="50" y="58">
           30
         </text>
-        <text fill="#FFFFFF" fontSize="9" fontWeight="bold">
+        <text fontFamily="Montserrat, sans-serif" fill="#FFFFFF" fontSize="9" fontWeight="bold">
           <textPath xlinkHref="#circle" startOffset="50%" textAnchor="middle">
             AÑOS DE TRAYECTORIA
           </textPath>
