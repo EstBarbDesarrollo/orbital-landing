@@ -18,9 +18,9 @@ export function OrbitalLogo(props: SVGProps<SVGSVGElement>) {
         fill="currentColor"
         className="text-foreground"
       >
-        Orbital
+        orbital
       </text>
-      <circle cx="25" cy="25" r="8" fill="none" stroke="currentColor" strokeWidth="4" className="text-primary" />
+      <circle cx="25" cy="25" r="8" fill="hsl(var(--primary))" stroke="none" />
       <ellipse
         cx="25"
         cy="25"

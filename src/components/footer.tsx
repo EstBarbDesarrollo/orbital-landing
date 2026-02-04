@@ -1,43 +1,31 @@
 import Link from 'next/link';
 import { OrbitalLogo } from './orbital-logo';
-import { Twitter, Linkedin, Github } from 'lucide-react';
+import { WhatsappIcon } from './whatsapp-icon';
 import { Button } from './ui/button';
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
-
   return (
-    <footer id="contact" className="bg-secondary">
-      <div className="container py-12">
+    <footer id="contact" className="bg-background border-t">
+      <div className="container py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <Link href="/" className="mb-4">
+          <div className="flex items-center gap-4">
+            <Link href="/" className="flex-shrink-0">
               <OrbitalLogo />
             </Link>
-            <p className="max-w-sm text-secondary-foreground">
-              Revolucionando los paisajes digitales con tecnología y diseño de vanguardia.
-            </p>
+            <div className="text-xs text-muted-foreground border-l pl-4 max-w-xs">
+              +25 años garantizando seguridad legal y acompañamiento humano
+            </div>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 text-sm">
+            <Link href="#" className="text-muted-foreground hover:text-primary">Acceso a plataforma</Link>
+            <Link href="#" className="text-muted-foreground hover:text-primary">Estudio Barbosa</Link>
+            <Link href="#" className="text-muted-foreground hover:text-primary">Datos legales / privacidad</Link>
             <Button variant="ghost" size="icon" asChild>
-              <a href="#" aria-label="Twitter">
-                <Twitter className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <a href="#" aria-label="LinkedIn">
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <a href="#" aria-label="GitHub">
-                <Github className="h-5 w-5" />
+              <a href="#" aria-label="WhatsApp">
+                <WhatsappIcon className="h-10 w-10 text-green-500" />
               </a>
             </Button>
           </div>
-        </div>
-        <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>&copy; {currentYear} Orbital Inc. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

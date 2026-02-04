@@ -1,10 +1,10 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Orbital - Lanza tu Negocio a la Estratosfera Digital',
-  description: 'Soluciones de software y diseño que te ponen en órbita. Creamos experiencias digitales que cautivan, convierten y crecen contigo.',
+  title: 'Orbital - Centro de gestión laboral accesible, seguro y ágil.',
+  description: 'Una inversión eficiente que optimiza los recursos de tu organización con acompañamiento profesional.',
 };
 
 export default function RootLayout({
