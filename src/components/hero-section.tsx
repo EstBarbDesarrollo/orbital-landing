@@ -23,8 +23,8 @@ export function HeroSection() {
           <Image
             src="/hero-text.png"
             alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
-            width={382}
-            height={114}
+            width={401}
+            height={120}
           />
         </div>
       </div>
