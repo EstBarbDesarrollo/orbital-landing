@@ -6,7 +6,7 @@ import { Card } from "./ui/card";
 
 export function ExperienceSection() {
     return (
-        <section className="bg-brand-blue text-brand-blue-foreground py-20 relative mt-20">
+        <section className="bg-brand-blue text-brand-blue-foreground py-20 relative">
             <div className="container text-center">
                 <div className="flex justify-center items-center gap-4 mb-4">
                     <EstudioBarbosaLogo />

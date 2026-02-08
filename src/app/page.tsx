@@ -12,7 +12,9 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <HeroSection />
-        <FeaturesBar />
+        <div className="relative z-10 -mt-12 md:-mt-16 lg:-mt-24">
+          <FeaturesBar />
+        </div>
         <DigitalizeSection />
         <ExperienceSection />
         <ProcessSection />
