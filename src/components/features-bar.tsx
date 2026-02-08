@@ -5,7 +5,7 @@ import { ShieldCheck, Send, CloudUpload, FileText } from 'lucide-react';
 
 export function FeaturesBar() {
   return (
-    <div className="-mt-20 relative z-10 pb-10">
+    <div className="-mt-20 relative z-10 pb-2">
       <div className="container pl-16 pr-16">
         <div className="bg-[#eaeaec] rounded-2xl p-[15px]">
           <Card className="overflow-hidden rounded-2xl shadow-none">
@@ -24,15 +24,15 @@ export function FeaturesBar() {
               <div className="grid grid-cols-1 sm:grid-cols-3 md:flex-1">
                 <div className="p-2 flex flex-col items-center justify-center text-center gap-1 bg-[#eaeaec]">
                   <Send className="w-5 h-5 text-primary" />
-                  <h3 className="font-semibold text-[10px] mt-0.5">Eliminación de papel y traslados</h3>
+                  <h3 className="font-semibold text-[11px] mt-0.5">Eliminación de papel y traslados</h3>
                 </div>
                 <div className="p-2 flex flex-col items-center justify-center text-center gap-1 border-t sm:border-t-0 sm:border-l bg-[#eaeaec]">
                   <CloudUpload className="w-5 h-5 text-primary" />
-                  <h3 className="font-semibold text-[10px] mt-0.5">Información siempre disponible y protegida</h3>
+                  <h3 className="font-semibold text-[11px] mt-0.5">Información siempre disponible y protegida</h3>
                 </div>
                 <div className="p-2 flex flex-col items-center justify-center text-center gap-1 border-t sm:border-t-0 sm:border-l bg-[#eaeaec]">
                   <FileText className="w-5 h-5 text-primary" />
-                  <h3 className="font-semibold text-[10px] mt-0.5">Centralización de documentos y legajos</h3>
+                  <h3 className="font-semibold text-[11px] mt-0.5">Centralización de documentos y legajos</h3>
                 </div>
               </div>
             </div>
