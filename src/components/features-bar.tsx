@@ -6,10 +6,10 @@ import { ShieldCheck, Send, CloudUpload, FileText } from 'lucide-react';
 export function FeaturesBar() {
   return (
     <div className="-mt-20 relative z-10 pb-20">
-      <div className="container pl-16">
-        <div className="max-w-[80%]">
+      <div className="container">
+        <div className="max-w-[80%] mx-auto">
           <div className="bg-background rounded-3xl p-[30px]">
-            <Card className="overflow-hidden rounded-2xl">
+            <Card className="overflow-hidden rounded-2xl shadow-none">
               <div className="flex flex-col md:flex-row">
                 <div className="p-8 bg-primary text-primary-foreground flex flex-col justify-center items-start gap-4 md:w-[40%]">
                   <div className="flex items-center justify-between w-full">
