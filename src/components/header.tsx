@@ -9,7 +9,7 @@ import { ContactarButton } from './contactar-button';
 
 export function Header() {
   return (
-    <header className='sticky top-0 z-50 w-full bg-background/80 backdrop-blur-sm shadow-sm'>
+    <header className='absolute z-10 w-full top-1/4 -translate-y-1/2'>
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" aria-label="Back to homepage">
           <OrbitalLogo />

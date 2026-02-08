@@ -2,11 +2,13 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
+import { Header } from './header';
 
 export function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-background') as ImagePlaceholder;
   return (
     <section className="relative bg-background">
+       <Header />
        {heroImage && (
         <Image
           src={heroImage.imageUrl}
