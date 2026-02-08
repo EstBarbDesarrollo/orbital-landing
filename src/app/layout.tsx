@@ -5,6 +5,9 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: 'Orbital - Centro de gestión laboral accesible, seguro y ágil.',
   description: 'Una inversión eficiente que optimiza los recursos de tu organización con acompañamiento profesional.',
+  icons: {
+    icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>',
+  }
 };
 
 export default function RootLayout({
