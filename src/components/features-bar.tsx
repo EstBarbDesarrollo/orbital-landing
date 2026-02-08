@@ -21,15 +21,15 @@ export function FeaturesBar() {
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 md:flex-1">
-              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 bg-background">
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3">
                 <Send className="w-10 h-10 text-primary" />
                 <h3 className="font-semibold text-sm mt-2">Eliminación de papel y traslados</h3>
               </div>
-              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l bg-background">
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l">
                 <CloudUpload className="w-10 h-10 text-primary" />
                 <h3 className="font-semibold text-sm mt-2">Información siempre disponible y protegida</h3>
               </div>
-              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l bg-background">
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l">
                 <FileText className="w-10 h-10 text-primary" />
                 <h3 className="font-semibold text-sm mt-2">Centralización de documentos y legajos</h3>
               </div>
