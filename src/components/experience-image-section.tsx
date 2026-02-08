@@ -5,7 +5,7 @@ export function ExperienceImageSection() {
   const image = PlaceHolderImages.find((img) => img.id === 'experience-banner') as ImagePlaceholder;
 
   return (
-    <section className="mt-8">
+    <section className="mt-11">
       {image && (
         <Image
           src={image.imageUrl}
