@@ -18,13 +18,13 @@ export function HeroSection() {
           priority
         />
       )}
-      <div className="absolute top-[calc(30%_-_200px)] left-0 right-0">
+      <div className="absolute top-[calc(30%_-_100px)] left-0 right-0">
         <div className="container pl-[64px]">
           <Image
             src="/hero-text.png"
             alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
-            width={420}
-            height={125}
+            width={294}
+            height={88}
           />
         </div>
       </div>
