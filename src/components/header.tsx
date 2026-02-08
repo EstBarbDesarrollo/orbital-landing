@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { OrbitalLogo } from '@/components/orbital-logo';
 import { Button } from '@/components/ui/button';
 import { WhatsappIcon } from '@/components/whatsapp-icon';
+import { IngresarButton } from './ingresar-button';
 
 export function Header() {
   return (
@@ -13,9 +14,7 @@ export function Header() {
           <OrbitalLogo />
         </Link>
         <nav className="flex items-center gap-4">
-            <Button asChild>
-                <Link href="#">Ingresar a la plataforma</Link>
-            </Button>
+            <IngresarButton />
             <Button variant="link" asChild>
                 <Link href="#">Ver demo</Link>
             </Button>
