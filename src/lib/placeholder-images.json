@@ -7,6 +7,12 @@
       "imageHint": "office meeting platform"
     },
     {
+      "id": "computer-overlay",
+      "description": "Una computadora mostrando la plataforma Orbital.",
+      "imageUrl": "https://images.unsplash.com/photo-1748609664795-11546ad62000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wdXRlciUyMHBsYXRmb3JtfGVufDB8fHx8MTc3MDU4NTA2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "computer platform"
+    },
+    {
       "id": "digital-signature",
       "description": "Una pantalla mostrando un documento con firma digital.",
       "imageUrl": "https://images.unsplash.com/photo-1563986768711-b3B1dc383844?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwc2lnbmF0dXJlfGVufDB8fHx8MTc3MDQ0OTM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
