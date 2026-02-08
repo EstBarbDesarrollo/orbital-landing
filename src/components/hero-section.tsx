@@ -18,7 +18,7 @@ export function HeroSection() {
           priority
         />
       )}
-      <div className="absolute top-[100px] left-[100px]">
+      <div className="absolute top-[64px] left-[64px]">
         <div className="flex flex-col items-start">
           <Image
             src="/hero-text.png"
