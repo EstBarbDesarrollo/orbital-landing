@@ -8,8 +8,8 @@ export function FeaturesBar() {
     <div className="py-12 bg-secondary -mt-20 relative z-10">
       <div className="container">
         <Card className="shadow-lg overflow-hidden rounded-2xl">
-          <div className="flex flex-col lg:flex-row">
-            <div className="p-8 bg-primary text-primary-foreground flex flex-col justify-center items-start gap-4 lg:w-[40%]">
+          <div className="flex flex-col md:flex-row">
+            <div className="p-8 bg-primary text-primary-foreground flex flex-col justify-center items-start gap-4 md:w-[40%]">
               <div className='flex items-center gap-4'>
                 <h3 className="font-bold text-2xl">Firma Digital Orbital</h3>
                 <ShieldCheck className="w-8 h-8 flex-shrink-0" />
@@ -18,7 +18,7 @@ export function FeaturesBar() {
                 Pleno valor legal (Ley 25.506). Seguridad jurídica total e inmediata.
               </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 lg:flex-1 bg-card">
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:flex-1 bg-card">
               <div className="p-6 flex flex-col items-center justify-center text-center gap-3">
                 <Send className="w-10 h-10 text-primary" />
                 <h3 className="font-semibold text-sm mt-2">Eliminación de papel y traslados</h3>
