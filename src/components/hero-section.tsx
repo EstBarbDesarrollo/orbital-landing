@@ -7,7 +7,7 @@ export function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-background') as ImagePlaceholder;
   return (
     <section className="relative bg-background">
-       {heroImage && (
+      {heroImage && (
         <Image
           src={heroImage.imageUrl}
           alt={heroImage.description}
@@ -23,8 +23,8 @@ export function HeroSection() {
           <Image
             src="/hero-text.png"
             alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
-            width={648}
-            height={195}
+            width={295}
+            height={89}
           />
           <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
             <Button size="lg" asChild>
