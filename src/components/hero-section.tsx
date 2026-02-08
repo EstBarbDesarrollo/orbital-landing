@@ -18,24 +18,22 @@ export function HeroSection() {
           priority
         />
       )}
-      <div className="absolute top-[calc(50%-250px)] -translate-y-1/2 left-0 right-0">
+      <div className="absolute top-[calc(50%-290px)] -translate-y-1/2 left-0 right-0">
         <div className="container pl-16">
           <Image
             src="/hero-text.png"
             alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
-            width={537}
-            height={161}
+            width={589}
+            height={177}
           />
-        </div>
-      </div>
-      <div className="absolute bottom-[15%] w-full">
-        <div className="container pl-16 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <Button size="lg" asChild>
-            <Link href="#features">Conocer Orbital</Link>
-          </Button>
-          <Button size="lg" variant="outline" className="bg-background" asChild>
-            <Link href="#contact">Ingresar a Orbital</Link>
-          </Button>
+          <div className="mt-8 flex flex-col sm:flex-row items-start gap-4">
+            <Button size="lg" asChild>
+              <Link href="#features">Conocer Orbital</Link>
+            </Button>
+            <Button size="lg" variant="outline" className="bg-background" asChild>
+              <Link href="#contact">Ingresar a Orbital</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
