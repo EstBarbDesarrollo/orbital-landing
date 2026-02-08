@@ -20,13 +20,13 @@ export function ExperienceImageSection() {
           {/* Invisible link for "Solicitar atención personalizada" */}
           <Link
             href="#"
-            className="absolute top-[55%] left-[37%] w-[25%] h-[12%] z-10"
+            className="absolute top-[68%] left-[37%] w-[16%] h-[10%] z-10"
             aria-label="Solicitar atención personalizada"
           />
           {/* Invisible link for "Ingresar a Orbital" */}
           <Link
             href="#"
-            className="absolute top-[55%] left-[64%] w-[18%] h-[12%] z-10"
+            className="absolute top-[68%] left-[55%] w-[11%] h-[10%] z-10"
             aria-label="Ingresar a Orbital"
           />
         </>
