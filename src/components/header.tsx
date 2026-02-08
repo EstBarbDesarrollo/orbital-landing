@@ -2,10 +2,10 @@
 
 import Link from 'next/link';
 import { OrbitalLogo } from '@/components/orbital-logo';
-import { Button } from '@/components/ui/button';
 import { WhatsappIcon } from '@/components/whatsapp-icon';
 import { IngresarButton } from './ingresar-button';
 import { VerDemoButton } from './ver-demo-button';
+import { ContactarButton } from './contactar-button';
 
 export function Header() {
   return (
@@ -17,9 +17,7 @@ export function Header() {
         <nav className="flex items-center gap-4">
             <IngresarButton />
             <VerDemoButton />
-             <Button variant="link" asChild>
-                <Link href="#">Contactar un asesor</Link>
-            </Button>
+            <ContactarButton />
             <a href="#" aria-label="WhatsApp">
               <WhatsappIcon className="h-8 w-8 text-green-500" />
             </a>
