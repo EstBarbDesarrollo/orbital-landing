@@ -6,8 +6,8 @@ export function ContactarButton() {
       <Image
         src="/contactar-asesor-btn.png"
         alt="Contactar un asesor"
-        width={190}
-        height={48}
+        width={135}
+        height={34}
       />
     </div>
   );

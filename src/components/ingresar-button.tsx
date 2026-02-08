@@ -7,8 +7,8 @@ export function IngresarButton() {
       <Image
         src="/ingresar-plataforma-btn.png"
         alt="Ingresar a la plataforma"
-        width={220}
-        height={48}
+        width={156}
+        height={34}
         className="transition-transform hover:scale-105"
       />
     </Link>

@@ -19,7 +19,7 @@ export function Header() {
             <VerDemoButton />
             <ContactarButton />
             <a href="#" aria-label="WhatsApp">
-              <WhatsappIcon className="h-8 w-8 text-green-500" />
+              <WhatsappIcon className="h-[34px] w-[34px] text-green-500" />
             </a>
         </nav>
       </div>

@@ -7,8 +7,8 @@ export function VerDemoButton() {
       <Image
         src="/ver-demo-btn.png"
         alt="Ver demo"
-        width={138}
-        height={48}
+        width={98}
+        height={34}
         className="transition-transform hover:scale-105"
       />
     </Link>
