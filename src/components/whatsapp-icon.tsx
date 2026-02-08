@@ -1,16 +1,13 @@
-import type { SVGProps } from 'react';
+import Image from 'next/image';
 
-export function WhatsappIcon(props: SVGProps<SVGSVGElement>) {
+export function WhatsappIcon({ className }: { className?: string }) {
   return (
-    <svg 
-      viewBox="0 0 24 24"
-      role="img"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-label="WhatsApp"
-      fill="currentColor"
-      {...props}
-      >
-        <path d="M12.04 2.01A10.03 10.03 0 0 0 2 12.05a10.03 10.03 0 0 0 10.04 10.03 10.03 10.03 0 0 0 10.03-10.03c0-5.52-4.51-10.03-10.03-10.03zm0 18.23a8.2 8.2 0 0 1-8.19-8.19 8.2 8.2 0 0 1 8.19-8.2 8.2 8.2 0 0 1 8.2 8.2c0 4.51-3.69 8.19-8.2 8.19zm3.62-5.41c-.2-.1-.58-.29-1.07-.53s-.86.36-.86.36a6.36 6.36 0 0 1-2.92-1.76 6.5 6.5 0 0 1-1.76-2.92s.13-.37.36-.86c-.24-.49-.53-1.07-.53-1.07s-.1-.2-.2-.3a1.94 1.94 0 0 0-.91-.19c-.27 0-.5.1-.64.25s-.52.61-.52 1.25c0 .64.27 1.28.42 1.48.15.2.33.42.33.42s.7 1.63 2.22 2.89a8.5 8.5 0 0 0 3.16 1.41c.42.15.86.12 1.2.07.39-.05.86-.36.98-.7.13-.34.13-.64.09-.7s-.15-.1-.35-.2z"/>
-    </svg>
+    <div className={`relative ${className}`}>
+      <Image
+        src="/whatsapp-icon.png"
+        alt="WhatsApp"
+        fill
+      />
+    </div>
   );
 }
