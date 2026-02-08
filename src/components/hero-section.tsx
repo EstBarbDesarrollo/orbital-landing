@@ -23,8 +23,8 @@ export function HeroSection() {
           <Image
             src="/hero-text.png"
             alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
-            width={295}
-            height={89}
+            width={354}
+            height={107}
           />
           <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
             <Button size="lg" asChild>
