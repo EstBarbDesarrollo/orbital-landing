@@ -5,6 +5,7 @@ import { OrbitalLogo } from '@/components/orbital-logo';
 import { Button } from '@/components/ui/button';
 import { WhatsappIcon } from '@/components/whatsapp-icon';
 import { IngresarButton } from './ingresar-button';
+import { VerDemoButton } from './ver-demo-button';
 
 export function Header() {
   return (
@@ -15,9 +16,7 @@ export function Header() {
         </Link>
         <nav className="flex items-center gap-4">
             <IngresarButton />
-            <Button variant="link" asChild>
-                <Link href="#">Ver demo</Link>
-            </Button>
+            <VerDemoButton />
              <Button variant="link" asChild>
                 <Link href="#">Contactar un asesor</Link>
             </Button>
