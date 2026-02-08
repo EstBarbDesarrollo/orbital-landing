@@ -20,7 +20,7 @@ export function DigitalizeSection() {
                 alt={computerImage.description}
                 width={600}
                 height={400}
-                className="w-full h-auto rounded-lg shadow-2xl"
+                className="w-full h-auto rounded-lg"
                 data-ai-hint={computerImage.imageHint}
             />
         </div>
