@@ -5,7 +5,7 @@ import { ShieldCheck, Send, CloudUpload, FileText } from 'lucide-react';
 
 export function FeaturesBar() {
   return (
-    <div className="-mt-20 relative z-10">
+    <div className="-mt-20 relative z-10 pb-20">
       <div className="container">
         <Card className="shadow-lg overflow-hidden rounded-2xl">
           <div className="flex flex-col md:flex-row">
@@ -20,16 +20,16 @@ export function FeaturesBar() {
                 <ShieldCheck className="w-8 h-8 flex-shrink-0" />
               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 md:flex-1 bg-card">
-              <div className="p-6 flex flex-col items-center justify-center text-center gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:flex-1">
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 bg-background">
                 <Send className="w-10 h-10 text-primary" />
                 <h3 className="font-semibold text-sm mt-2">Eliminación de papel y traslados</h3>
               </div>
-              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l">
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l bg-background">
                 <CloudUpload className="w-10 h-10 text-primary" />
                 <h3 className="font-semibold text-sm mt-2">Información siempre disponible y protegida</h3>
               </div>
-              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l">
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l bg-background">
                 <FileText className="w-10 h-10 text-primary" />
                 <h3 className="font-semibold text-sm mt-2">Centralización de documentos y legajos</h3>
               </div>
