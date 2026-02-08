@@ -14,13 +14,13 @@ export function DigitalizeSection() {
         className="w-full h-auto"
       />
       {computerImage && (
-        <div className="absolute top-[35%] left-[8%] w-[35%]">
+        <div className="absolute top-[32%] left-[6%] w-[42%]">
             <Image
                 src={computerImage.imageUrl}
                 alt={computerImage.description}
                 width={600}
                 height={400}
-                className="w-full h-auto rounded-lg"
+                className="w-full h-auto"
                 data-ai-hint={computerImage.imageHint}
             />
         </div>
