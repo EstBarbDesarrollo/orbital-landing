@@ -1,47 +1,37 @@
-import { Card } from './ui/card';
-import { ShieldCheck, Send, CloudDownload, Folder } from 'lucide-react';
+'use client';
 
-const features = [
-  {
-    title: 'Firma Digital Orbital',
-    description: 'Pleno valor legal (Ley 25.506). Seguridad jurídica total e inmediata.',
-    icon: <ShieldCheck className="w-8 h-8" />,
-    highlighted: true,
-  },
-  {
-    title: 'Eliminación de papel y traslados',
-    icon: <Send className="w-8 h-8" />,
-  },
-  {
-    title: 'Información siempre disponible y protegida',
-    icon: <CloudDownload className="w-8 h-8" />,
-  },
-  {
-    title: 'Centralización de documentos y legajos',
-    icon: <Folder className="w-8 h-8" />,
-  },
-];
+import { Card } from './ui/card';
+import { ShieldCheck, Send, CloudUpload, FileText } from 'lucide-react';
 
 export function FeaturesBar() {
   return (
-    <div className="py-12 bg-secondary">
+    <div className="py-12 bg-secondary -mt-20 relative z-10">
       <div className="container">
-        <Card className="shadow-lg">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            {features.map((feature, index) => (
-              <div
-                key={feature.title}
-                className={`p-6 flex items-center gap-4 ${
-                  feature.highlighted ? 'bg-primary text-primary-foreground rounded-l-lg' : ''
-                } ${index > 0 && index < features.length ? 'border-t md:border-t-0 md:border-l' : ''} ${ index === 1 ? 'rounded-tr-lg md:rounded-none' : ''} ${ index === features.length - 1 ? 'rounded-b-lg lg:rounded-b-none lg:rounded-r-lg' : ''}`}
-              >
-                <div className="flex-shrink-0">{feature.icon}</div>
-                <div>
-                  <h3 className="font-bold">{feature.title}</h3>
-                  {feature.description && <p className="text-sm opacity-90">{feature.description}</p>}
-                </div>
+        <Card className="shadow-lg overflow-hidden rounded-2xl">
+          <div className="flex flex-col lg:flex-row">
+            <div className="p-8 bg-primary text-primary-foreground flex flex-col justify-center items-start gap-4 lg:w-[40%]">
+              <div className='flex items-center gap-4'>
+                <h3 className="font-bold text-2xl">Firma Digital Orbital</h3>
+                <ShieldCheck className="w-8 h-8 flex-shrink-0" />
               </div>
-            ))}
+              <p className="text-sm opacity-90 mt-1">
+                Pleno valor legal (Ley 25.506). Seguridad jurídica total e inmediata.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 lg:flex-1 bg-card">
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3">
+                <Send className="w-10 h-10 text-primary" />
+                <h3 className="font-semibold text-sm mt-2">Eliminación de papel y traslados</h3>
+              </div>
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l">
+                <CloudUpload className="w-10 h-10 text-primary" />
+                <h3 className="font-semibold text-sm mt-2">Información siempre disponible y protegida</h3>
+              </div>
+              <div className="p-6 flex flex-col items-center justify-center text-center gap-3 border-t sm:border-t-0 sm:border-l">
+                <FileText className="w-10 h-10 text-primary" />
+                <h3 className="font-semibold text-sm mt-2">Centralización de documentos y legajos</h3>
+              </div>
+            </div>
           </div>
         </Card>
       </div>
