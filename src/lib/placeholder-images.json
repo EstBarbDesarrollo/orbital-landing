@@ -59,6 +59,12 @@
       "description": "Un documento con un sello de aprobación.",
       "imageUrl": "https://images.unsplash.com/photo-1603796846097-bee99e4a601f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZWdhbCUyMGRvY3VtZW50fGVufDB8fHx8MTc3MDE0NDIyNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "legal document"
+    },
+    {
+      "id": "experience-banner",
+      "description": "Banner de la sección de experiencia de Estudio Barbosa",
+      "imageUrl": "https://images.unsplash.com/photo-1768314669311-982b2e1ca616?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxleHBlcmllbmNlJTIwYmFubmVyfGVufDB8fHx8MTc3MDU4NzUzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "experience banner"
     }
   ]
 }

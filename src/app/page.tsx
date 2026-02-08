@@ -2,7 +2,7 @@ import { Header } from '@/components/header';
 import { HeroSection } from '@/components/hero-section';
 import { FeaturesBar } from '@/components/features-bar';
 import { DigitalizeSection } from '@/components/digitalize-section';
-import { ExperienceSection } from '@/components/experience-section';
+import { ExperienceImageSection } from '@/components/experience-image-section';
 import { ProcessSection } from '@/components/process-section';
 import { Footer } from '@/components/footer';
 
@@ -16,7 +16,7 @@ export default function Home() {
           <FeaturesBar />
         </div>
         <DigitalizeSection />
-        <ExperienceSection />
+        <ExperienceImageSection />
         <ProcessSection />
       </main>
       <Footer />
