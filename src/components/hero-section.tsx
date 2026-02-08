@@ -18,15 +18,15 @@ export function HeroSection() {
           priority
         />
       )}
-      <div className="absolute top-[calc(50%-290px)] -translate-y-1/2 left-0 right-0">
-        <div className="container pl-16">
+      <div className="absolute top-[100px] left-[100px]">
+        <div className="flex flex-col items-start">
           <Image
             src="/hero-text.png"
             alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
-            width={589}
-            height={177}
+            width={648}
+            height={195}
           />
-          <div className="mt-8 flex flex-col sm:flex-row items-start gap-4">
+          <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
             <Button size="lg" asChild>
               <Link href="#features">Conocer Orbital</Link>
             </Button>
