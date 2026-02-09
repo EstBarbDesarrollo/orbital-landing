@@ -30,7 +30,7 @@ export function ProcessSection() {
           <h2 className="text-xl md:text-2xl font-bold font-headline">
             Empezar es simple. Evolucioná con confianza.
           </h2>
-          <p className="mt-4 text-base text-muted-foreground max-w-lg mx-auto">
+          <p className="mt-4 text-sm text-muted-foreground max-w-lg mx-auto">
             Tres pasos para transformar tu administración administrativa con el respaldo técnico de Orbital y el acompañamiento de Estudio Barbosa.
           </p>
         </div>
