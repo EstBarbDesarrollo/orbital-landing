@@ -27,7 +27,7 @@ export function ProcessSection() {
     <section className="py-20">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">
+          <h2 className="text-2xl md:text-3xl font-bold font-headline">
             Empezar es simple. Evolucioná con confianza.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
