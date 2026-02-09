@@ -20,7 +20,7 @@ export function ExperienceImageSection() {
           {/* Invisible link for "Solicitar atención personalizada" */}
           <Link
             href="#"
-            className="absolute top-[68%] left-[37%] w-[16%] h-[10%] z-10 border-2 border-black -translate-x-[340px] translate-y-[36px]"
+            className="absolute top-[68%] left-[37%] w-[16%] h-[10%] z-10 border-2 border-black -translate-x-[300px] translate-y-[36px]"
             aria-label="Solicitar atención personalizada"
           />
           {/* Invisible link for "Ingresar a Orbital" */}
