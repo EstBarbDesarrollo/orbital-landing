@@ -8,6 +8,8 @@ import { VerDemoButton } from './ver-demo-button';
 import { ContactarButton } from './contactar-button';
 
 export function Header() {
+  const whatsappUrl = "https://wa.me/5492215454405";
+
   return (
     <header>
       <div className="container flex h-20 items-center justify-between pl-16 pr-16">
@@ -18,7 +20,7 @@ export function Header() {
             <IngresarButton />
             <VerDemoButton />
             <ContactarButton />
-            <a href="#" aria-label="WhatsApp">
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
               <WhatsappIcon className="h-[34px] w-[34px] text-green-500" />
             </a>
         </nav>

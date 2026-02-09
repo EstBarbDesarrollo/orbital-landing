@@ -4,6 +4,8 @@ import { WhatsappIcon } from './whatsapp-icon';
 import { Button } from './ui/button';
 
 export function Footer() {
+  const whatsappUrl = "https://wa.me/5492215454405";
+
   return (
     <footer id="contact" className="bg-background border-t">
       <div className="container py-8">
@@ -21,7 +23,7 @@ export function Footer() {
             <Link href="#" className="text-muted-foreground hover:text-primary">Estudio Barbosa</Link>
             <Link href="#" className="text-muted-foreground hover:text-primary">Datos legales / privacidad</Link>
             <Button variant="ghost" size="icon" asChild>
-              <a href="#" aria-label="WhatsApp">
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                 <WhatsappIcon className="h-10 w-10 text-green-500" />
               </a>
             </Button>
