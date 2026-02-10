@@ -37,11 +37,22 @@ export function RotatingCard({ image, title, text, number }: RotatingCardProps) 
         </Card>
 
         {/* Back of the card */}
-        <Card className="absolute h-full w-full [transform:rotateY(180deg)] [backface-visibility:hidden] bg-accent text-accent-foreground">
-          <CardContent className="flex h-full flex-col justify-center items-center p-6 text-center">
-            <h3 className="text-2xl font-bold font-headline mb-3">{title}</h3>
-            <p>{text}</p>
-          </CardContent>
+        <Card className={`absolute h-full w-full [transform:rotateY(180deg)] [backface-visibility:hidden] ${isSpecialCard ? 'bg-white' : 'bg-accent text-accent-foreground'}`}>
+          {isSpecialCard ? (
+            <div className="relative w-full h-full">
+              <Image
+                src="/process-step-1-back.png"
+                alt="Analizamos su estructura y procesos para una implementación correcta."
+                fill
+                className="object-contain p-4"
+              />
+            </div>
+          ) : (
+            <CardContent className="flex h-full flex-col justify-center items-center p-6 text-center">
+              <h3 className="text-2xl font-bold font-headline mb-3">{title}</h3>
+              <p>{text}</p>
+            </CardContent>
+          )}
         </Card>
       </div>
     </div>
