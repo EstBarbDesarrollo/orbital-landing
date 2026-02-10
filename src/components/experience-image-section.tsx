@@ -20,7 +20,7 @@ export function ExperienceImageSection() {
           />
           <div className="absolute inset-0">
             <div className="container flex h-full items-center pl-16 pr-16">
-              <div className="mt-[13rem] pl-10">
+              <div className="mt-[14.25rem] pl-7">
                 <div className="flex flex-col items-start gap-4 sm:flex-row">
                   <Button size="lg" asChild className="rounded-full">
                     <Link href="#features">Solicitar atención personalizada</Link>
@@ -28,7 +28,7 @@ export function ExperienceImageSection() {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="rounded-full bg-background text-primary"
+                    className="rounded-full bg-background text-primary border-background hover:bg-background hover:text-primary"
                     asChild
                   >
                     <Link href="#contact">Ingresar a Orbital</Link>
