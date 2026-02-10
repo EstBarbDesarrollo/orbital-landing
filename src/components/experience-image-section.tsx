@@ -23,7 +23,7 @@ export function ExperienceImageSection() {
               <div className="mt-64 pl-5">
                 <div className="flex flex-col items-start gap-4 sm:flex-row">
                   <Button size="lg" asChild className="rounded-full">
-                    <Link href="#features">Conocer Orbital</Link>
+                    <Link href="#features">Solicitar atención personalizada</Link>
                   </Button>
                   <Button
                     size="lg"
