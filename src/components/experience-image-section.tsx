@@ -19,7 +19,7 @@ export function ExperienceImageSection() {
             data-ai-hint={image.imageHint}
           />
           <div className="absolute inset-0">
-            <div className="absolute top-[68%] left-[11.5%]">
+            <div className="absolute top-[71.5%] left-[10.5%]">
               <div className="flex flex-col items-start gap-4 sm:flex-row">
                 <Button size="lg" asChild className="rounded-full">
                   <Link href="#features">Solicitar atención personalizada</Link>
