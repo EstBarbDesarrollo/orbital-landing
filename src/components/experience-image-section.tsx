@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 
 export function ExperienceImageSection() {
@@ -16,18 +15,6 @@ export function ExperienceImageSection() {
             height={580}
             className="w-full h-auto"
             data-ai-hint={image.imageHint}
-          />
-          {/* Invisible link for "Solicitar atención personalizada" */}
-          <Link
-            href="#"
-            className="absolute top-[68%] left-[37%] w-[20%] h-[11%] z-10 border-2 border-black -translate-x-[238px] translate-y-[38px]"
-            aria-label="Solicitar atención personalizada"
-          />
-          {/* Invisible link for "Ingresar a Orbital" */}
-          <Link
-            href="#"
-            className="absolute top-[68%] left-[60%] w-[20%] h-[11%] z-10 border-2 border-black -translate-x-[260px] translate-y-[38px]"
-            aria-label="Ingresar a Orbital"
           />
         </>
       )}
