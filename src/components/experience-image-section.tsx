@@ -28,7 +28,7 @@ export function ExperienceImageSection() {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="rounded-full bg-background"
+                    className="rounded-full bg-background text-primary border-primary"
                     asChild
                   >
                     <Link href="#contact">Ingresar a Orbital</Link>
