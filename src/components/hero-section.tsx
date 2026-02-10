@@ -29,10 +29,10 @@ export function HeroSection() {
                 height={128}
               />
               <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
-                <Button size="lg" asChild>
+                <Button size="lg" asChild className="rounded-full">
                   <Link href="#features">Conocer Orbital</Link>
                 </Button>
-                <Button size="lg" variant="outline" className="bg-background" asChild>
+                <Button size="lg" variant="outline" className="bg-background rounded-full" asChild>
                   <Link href="#contact">Ingresar a Orbital</Link>
                 </Button>
               </div>
