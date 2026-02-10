@@ -20,7 +20,7 @@ export function ExperienceImageSection() {
           />
           <div className="absolute inset-0">
             <div className="container flex h-full items-center pl-16 pr-16">
-              <div className="mt-32">
+              <div className="mt-48">
                 <div className="flex flex-col items-start gap-4 sm:flex-row">
                   <Button size="lg" asChild className="rounded-full">
                     <Link href="#features">Conocer Orbital</Link>
