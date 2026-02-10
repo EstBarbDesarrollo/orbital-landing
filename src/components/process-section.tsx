@@ -1,24 +1,23 @@
 import { RotatingCard } from './rotating-card';
-import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 
 const steps = [
   {
     number: '01',
-    title: 'Conocemos tu institución',
-    text: 'Analizamos en profundidad la estructura y necesidades de tu organización para ofrecerte una solución a medida.',
-    imageId: 'process-1',
+    frontImage: '/process-step-1.png',
+    backImage: '/process-step-1-back.png',
+    alt: 'Paso 1: Conocemos tu institución',
   },
   {
     number: '02',
-    title: 'Implementamos la plataforma',
-    text: 'Configuramos Orbital para que se integre perfectamente con tus procesos existentes, garantizando una transición fluida.',
-    imageId: 'process-2',
+    frontImage: '/process-step-2.png',
+    backImage: '/process-step-2-back.png',
+    alt: 'Paso 2: Implementamos la plataforma',
   },
   {
     number: '03',
-    title: 'Gestionás con respaldo',
-    text: 'Te acompañamos en cada paso, brindando soporte constante y la seguridad jurídica que solo Estudio Barbosa puede ofrecer.',
-    imageId: 'process-3',
+    frontImage: '/process-step-3.png',
+    backImage: '/process-step-3-back.png',
+    alt: 'Paso 3: Gestionás con respaldo',
   },
 ];
 
@@ -35,20 +34,14 @@ export function ProcessSection() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {steps.map((step) => {
-            const image = PlaceHolderImages.find(img => img.id === step.imageId) as ImagePlaceholder;
-            return (
-              image && (
-                <RotatingCard
-                  key={step.number}
-                  number={step.number}
-                  title={step.title}
-                  text={step.text}
-                  image={image}
-                />
-              )
-            );
-          })}
+          {steps.map((step) => (
+            <RotatingCard
+              key={step.number}
+              frontImage={step.frontImage}
+              backImage={step.backImage}
+              alt={step.alt}
+            />
+          ))}
         </div>
       </div>
     </section>
