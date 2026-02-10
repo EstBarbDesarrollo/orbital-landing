@@ -15,7 +15,7 @@ export function RotatingCard({ image, title, text, number }: RotatingCardProps) 
   const isSpecialCard = number === '01';
 
   return (
-    <div className="group [perspective:1000px] aspect-square w-full">
+    <div className="group [perspective:1000px] aspect-[16/9] w-full">
       <div className="relative h-full w-full [transform-style:preserve-3d] transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
         {/* Front of the card */}
         <Card className="absolute h-full w-full overflow-hidden [backface-visibility:hidden]">
