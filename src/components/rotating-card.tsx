@@ -12,6 +12,8 @@ interface RotatingCardProps {
 }
 
 export function RotatingCard({ image, title, text, number }: RotatingCardProps) {
+  const isSpecialCard = number === '01';
+
   return (
     <div className="group [perspective:1000px] aspect-square w-full">
       <div className="relative h-full w-full [transform-style:preserve-3d] transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
@@ -24,10 +26,14 @@ export function RotatingCard({ image, title, text, number }: RotatingCardProps) 
             className="object-cover"
             data-ai-hint={image.imageHint}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-          <div className="absolute bottom-0 left-0 p-6">
-            <h3 className="text-4xl font-bold text-white font-headline">{number}</h3>
-          </div>
+          {!isSpecialCard && (
+            <>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+              <div className="absolute bottom-0 left-0 p-6">
+                <h3 className="text-4xl font-bold text-white font-headline">{number}</h3>
+              </div>
+            </>
+          )}
         </Card>
 
         {/* Back of the card */}

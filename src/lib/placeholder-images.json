@@ -44,9 +44,9 @@
     },
     {
       "id": "process-1",
-      "description": "Una reunión de equipo discutiendo ideas en una pizarra.",
-      "imageUrl": "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fDE3NzAxMjAyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "team meeting"
+      "description": "Paso 1: Conocemos la organización",
+      "imageUrl": "/process-step-1.png",
+      "imageHint": "organization analysis"
     },
     {
       "id": "process-2",
