@@ -12,13 +12,48 @@ export function Footer() {
           height={110}
           className="w-full h-auto object-contain"
         />
-        <div className="absolute top-[35%] left-[26.5%] w-[8.2%] h-[31%]">
+        <div className="absolute top-[29.4%] left-[6.9%] w-[10.1%] h-[24.4%]">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-black hover:bg-transparent rounded-md">
                 <Link href="#" aria-label="Ingresar a la plataforma">
                   <span className="text-transparent">Ingresar a la plataforma</span>
                 </Link>
             </Button>
         </div>
+        <div className="absolute top-[30%] left-[50.2%] w-[14.4%] h-[24.6%]">
+            <Button asChild variant="outline" className="w-full h-full bg-transparent border-black hover:bg-transparent rounded-md">
+                <Link href="#" aria-label="Ingresar a la plataforma">
+                  <span className="text-transparent">Ingresar a la plataforma</span>
+                </Link>
+            </Button>
+        </div> 
+        <div className="absolute top-[31%] left-[66.8%] w-[1.6%] h-[20%]">
+            <Button asChild variant="outline" className="w-full h-full bg-transparent border-black hover:bg-transparent rounded-md">
+                <Link href="#" aria-label="Ingresar a la plataforma">
+                  <span className="text-transparent">Ingresar a la plataforma</span>
+                </Link>
+            </Button>
+        </div>  
+        <div className="absolute top-[31%] left-[71.15%] w-[1.6%] h-[20%]">
+            <Button asChild variant="outline" className="w-full h-full bg-transparent border-red hover:bg-transparent rounded-md">
+                <Link href="#" aria-label="Ingresar a la plataforma">
+                  <span className="text-transparent">Ingresar a la plataforma</span>
+                </Link>
+            </Button>
+        </div>   
+        <div className="absolute top-[31%] left-[75.5%] w-[1.6%] h-[20%]">
+            <Button asChild variant="outline" className="w-full h-full bg-transparent border-black hover:bg-transparent rounded-md">
+                <Link href="#" aria-label="Ingresar a la plataforma">
+                  <span className="text-transparent">Ingresar a la plataforma</span>
+                </Link>
+            </Button>
+        </div>  
+        <div className="absolute top-[14%] left-[88.1%] w-[6%] h-[55%]">
+            <Button asChild variant="outline" className="w-full h-full bg-transparent border-black hover:bg-transparent rounded-md">
+                <Link href="#" aria-label="Ingresar a la plataforma">
+                  <span className="text-transparent">Ingresar a la plataforma</span>
+                </Link>
+            </Button>
+        </div>              
     </footer>
   );
 }
