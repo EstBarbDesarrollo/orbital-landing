@@ -5,13 +5,15 @@ import { Button } from './ui/button';
 export function Footer() {
   return (
     <footer id="contact" className="bg-white w-full relative">
-        <Image
-          src="/new-footer.png"
-          alt="Pie de página de Orbital con logo, botón de ingreso, y redes sociales."
-          width={1920}
-          height={110}
-          className="w-full h-auto object-contain"
-        />
+        <div className="pointer-events-none">
+            <Image
+              src="/new-footer.png"
+              alt="Pie de página de Orbital con logo, botón de ingreso, y redes sociales."
+              width={1920}
+              height={110}
+              className="w-full h-auto object-contain"
+            />
+        </div>
         <div className="absolute top-[29.4%] left-[6.9%] w-[10.1%] h-[24.4%]">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-black hover:bg-transparent rounded-md">
                 <Link href="#" aria-label="Ingresar a la plataforma">
