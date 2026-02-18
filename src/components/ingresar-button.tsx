@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function IngresarButton() {
   return (
-    <Link href="#" className="inline-block">
+    <Link href="https://accesoorbital.estudiobarbosa.com.ar" className="inline-block">
       <Image
         src="/ingresar-plataforma-btn.png"
         alt="Ingresar a la plataforma"

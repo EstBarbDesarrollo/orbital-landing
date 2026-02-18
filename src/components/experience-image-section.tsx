@@ -30,7 +30,7 @@ export function ExperienceImageSection() {
                   className="rounded-full bg-background text-primary border-background hover:bg-background hover:text-primary"
                   asChild
                 >
-                  <Link href="#contact">Ingresar a Orbital</Link>
+                  <Link href="https://accesoorbital.estudiobarbosa.com.ar">Ingresar a Orbital</Link>
                 </Button>
               </div>
             </div>

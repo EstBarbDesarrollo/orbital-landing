@@ -33,7 +33,7 @@ export function HeroSection() {
                   <Link href="#features">Conocer Orbital</Link>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-background rounded-full" asChild>
-                  <Link href="#contact">Ingresar a Orbital</Link>
+                  <Link href="https://accesoorbital.estudiobarbosa.com.ar">Ingresar a Orbital</Link>
                 </Button>
               </div>
             </div>
