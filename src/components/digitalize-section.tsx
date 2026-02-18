@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from './ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function DigitalizeSection() {
@@ -25,6 +27,17 @@ export function DigitalizeSection() {
             />
         </div>
       )}
+      <div className="absolute top-[50%] left-[50%] w-[35%] h-[10%]">
+        <Button 
+          asChild 
+          variant="outline" 
+          className="w-full h-full bg-transparent border-black hover:bg-black/5 rounded-none"
+        >
+          <Link href="#">
+            <span className="sr-only">Acción Digitaliza</span>
+          </Link>
+        </Button>
+      </div>
     </section>
   );
 }
