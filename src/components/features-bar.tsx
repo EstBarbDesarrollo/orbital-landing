@@ -10,7 +10,7 @@ export function FeaturesBar() {
         alt="Características de Orbital: Firma Digital, Eliminación de papel, Información protegida, Centralización de documentos"
         width={1400}
         height={160}
-        className="w-[90%] h-auto object-contain"
+        className="w-[93%] h-auto object-contain"
         priority
       />
     </div>
