@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 export function ExperienceImageSection() {
   const image = PlaceHolderImages.find((img) => img.id === 'experience-banner') as ImagePlaceholder;
+  const whatsappUrl = "https://wa.me/5492215454405";
 
   return (
     <section className="mt-14 relative">
@@ -23,7 +24,9 @@ export function ExperienceImageSection() {
             <div className="absolute top-[80%] left-[9%]">
               <div className="flex flex-col items-start gap-4 sm:flex-row">
                 <Button size="lg" asChild className="rounded-full">
-                  <Link href="#features">Solicitar atención personalizada</Link>
+                  <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                    Solicitar atención personalizada
+                  </Link>
                 </Button>
                 <Button
                   size="lg"

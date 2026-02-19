@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 
 export function Footer() {
+  const platformUrl = "https://accesoorbital.estudiobarbosa.com.ar";
+
   return (
     <footer id="contact" className="bg-white w-full relative">
         <div className="pointer-events-none">
@@ -16,14 +18,14 @@ export function Footer() {
         </div>
         <div className="absolute top-[29.4%] left-[6.9%] w-[10.1%] h-[24.4%]">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
-                <Link href="/" aria-label="Volver al inicio">
+                <Link href={platformUrl} aria-label="Ir a la plataforma Orbital">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>
         </div>
         <div className="absolute top-[30%] left-[50.2%] w-[14.4%] h-[24.6%]">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
-                <Link href="https://accesoorbital.estudiobarbosa.com.ar" aria-label="Ingresar a la plataforma">
+                <Link href={platformUrl} aria-label="Ingresar a la plataforma">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>
