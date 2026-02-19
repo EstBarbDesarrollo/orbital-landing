@@ -30,7 +30,7 @@ export function HeroSection() {
                 priority
               />
               <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
-                <Button size="lg" asChild className="rounded-full">
+                <Button size="lg" asChild className="rounded-full transition-transform hover:scale-105">
                   <Link href="#digitalize">Conocer Orbital</Link>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-background rounded-full" asChild>
