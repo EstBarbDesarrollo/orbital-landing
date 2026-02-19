@@ -11,8 +11,8 @@ export function Header() {
   const whatsappUrl = "https://wa.me/5492215454405";
 
   return (
-    <header>
-      <div className="container flex h-20 items-center justify-between pl-16 pr-16">
+    <header className="w-full">
+      <div className="flex h-20 items-center justify-between px-[6.3%] w-full">
         <Link href="https://accesoorbital.estudiobarbosa.com.ar" aria-label="Ir a la plataforma Orbital">
           <OrbitalLogo />
         </Link>
@@ -21,7 +21,7 @@ export function Header() {
             <VerDemoButton />
             <ContactarButton />
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-              <WhatsappIcon className="h-[34px] w-[34px] text-green-500" />
+              <WhatsappIcon className="h-[34px] w-[34px]" />
             </a>
         </nav>
       </div>
