@@ -28,76 +28,59 @@ export function DigitalizeSection() {
         </div>
       )}
 
-      {/* Imagen 1_firma_black.png posicionada según requerimiento */}
-      <div className="absolute top-[19%] left-[56%] w-[35%]">
+      {/* 1_firma_black con efecto hover a blue */}
+      <div className="absolute top-[19%] left-[56%] w-[35%] group cursor-pointer">
         <Image 
           src="/1_firma_black.png" 
           alt="Firma" 
           width={672} 
           height={100} 
-          className="w-full h-auto object-contain"
+          className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+        />
+        <Image 
+          src="/1_firma_blue.png" 
+          alt="Firma" 
+          width={672} 
+          height={100} 
+          className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
       </div>
 
-      {/* Botón 1 */}
-      <div className="absolute top-[19%] left-[57%] w-[35%] h-[12%]">
-        <Button 
-          asChild 
-          variant="outline" 
-          className="w-full h-full bg-transparent border-black hover:bg-black/5 rounded-none"
-        >
-          <Link href="#">
-            <span className="sr-only">Acción Digitaliza</span>
-          </Link>
-        </Button>
+      <div className="absolute top-[33.7%] left-[56%] w-[35%]">
+        <Image 
+          src="/2_centralizacion_black.png" 
+          alt="Centralizacion" 
+          width={672} 
+          height={100} 
+          className="w-full h-auto object-contain"
+        />
       </div>
-      {/* Botón 2 */}
-      <div className="absolute top-[34.7%] left-[57%] w-[35%] h-[12%]">
-        <Button 
-          asChild 
-          variant="outline" 
-          className="w-full h-full bg-transparent border-black hover:bg-black/5 rounded-none"
-        >
-          <Link href="#">
-            <span className="sr-only">Acción Digitaliza</span>
-          </Link>
-        </Button>
+      <div className="absolute top-[49.4%] left-[56%] w-[35%]">
+        <Image 
+          src="/3_informacion_black.png" 
+          alt="Informacion" 
+          width={672} 
+          height={100} 
+          className="w-full h-auto object-contain"
+        />
       </div>
-      {/* Botón 3 */}
-      <div className="absolute top-[50.4%] left-[57%] w-[35%] h-[12%]">
-        <Button 
-          asChild 
-          variant="outline" 
-          className="w-full h-full bg-transparent border-black hover:bg-black/5 rounded-none"
-        >
-          <Link href="#">
-            <span className="sr-only">Acción Digitaliza</span>
-          </Link>
-        </Button>
+      <div className="absolute top-[65.1%] left-[56%] w-[35%]">
+        <Image 
+          src="/4_inversion_black.png" 
+          alt="Gestion" 
+          width={672} 
+          height={100} 
+          className="w-full h-auto object-contain"
+        />
       </div>
-      {/* Botón 4 */}
-      <div className="absolute top-[66.1%] left-[57%] w-[35%] h-[12%]">
-        <Button 
-          asChild 
-          variant="outline" 
-          className="w-full h-full bg-transparent border-black hover:bg-black/5 rounded-none"
-        >
-          <Link href="#">
-            <span className="sr-only">Acción Digitaliza</span>
-          </Link>
-        </Button>
-      </div>
-      {/* Botón 5 */}
-      <div className="absolute top-[81.8%] left-[57%] w-[35%] h-[12%]">
-        <Button 
-          asChild 
-          variant="outline" 
-          className="w-full h-full bg-transparent border-black hover:bg-black/5 rounded-none"
-        >
-          <Link href="#">
-            <span className="sr-only">Acción Digitaliza</span>
-          </Link>
-        </Button>
+      <div className="absolute top-[80.8%] left-[56%] w-[35%]">
+        <Image 
+          src="/5_gestion_black.png" 
+          alt="Gestion" 
+          width={672} 
+          height={100} 
+          className="w-full h-auto object-contain"
+        />
       </div>
     </section>
   );
