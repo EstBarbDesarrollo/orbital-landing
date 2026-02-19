@@ -21,17 +21,19 @@ export function ExperienceImageSection() {
             priority
           />
           <div className="absolute inset-0">
-            <div className="absolute top-[80%] left-[9%]">
-              <div className="flex flex-col items-start gap-4 sm:flex-row">
-                <Button size="lg" asChild className="rounded-full transition-transform hover:scale-105">
+            {/* Contenedor posicionado con porcentajes respecto al banner */}
+            <div className="absolute top-[71%] left-[6.5%] w-[50%]">
+              <div className="flex flex-row items-center gap-[1vw]">
+                <Button 
+                  asChild 
+                  className="h-[3.4vw] px-[2.4vw] text-[1.1vw] rounded-full bg-[#6F26C6] hover:bg-[#6F26C6] text-white transition-transform hover:scale-105 border-none shadow-none font-bold"
+                >
                   <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                     Solicitar atención personalizada
                   </Link>
                 </Button>
                 <Button
-                  size="lg"
-                  variant="outline"
-                  className="rounded-full bg-background text-primary border-background hover:bg-background hover:text-primary transition-transform hover:scale-105"
+                  className="h-[3.4vw] px-[2.4vw] text-[1.1vw] rounded-full bg-[#EFEFEF] text-[#6F26C6] hover:bg-[#EFEFEF] transition-transform hover:scale-105 border-none shadow-none font-bold"
                   asChild
                 >
                   <Link href="https://accesoorbital.estudiobarbosa.com.ar">Ingresar a Orbital</Link>
