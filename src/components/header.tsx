@@ -13,7 +13,7 @@ export function Header() {
   return (
     <header>
       <div className="container flex h-20 items-center justify-between pl-16 pr-16">
-        <Link href="/" aria-label="Back to homepage">
+        <Link href="https://accesoorbital.estudiobarbosa.com.ar" aria-label="Ir a la plataforma Orbital">
           <OrbitalLogo />
         </Link>
         <nav className="flex items-center gap-4">
