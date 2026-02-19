@@ -15,31 +15,31 @@
     {
       "id": "digital-signature",
       "description": "Una pantalla mostrando un documento con firma digital.",
-      "imageUrl": "https://images.unsplash.com/photo-1563986768711-b3B1dc383844?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwc2lnbmF0dXJlfGVufDB8fHx8MTc3MDQ0OTM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/digitaliza_home.png",
       "imageHint": "digital signature"
     },
     {
       "id": "document-centralization",
       "description": "Una pantalla mostrando un sistema de gestión de archivos.",
-      "imageUrl": "https://images.unsplash.com/photo-1588598958408-77937021e197?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaWxlJTIwbWFuYWdlbWVudCUyMHN5c3RlbXxlbnwwfHx8fDE3NzA0NDk0MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/digitaliza_registroempleados.png",
       "imageHint": "file management"
     },
     {
       "id": "secure-information",
       "description": "Una pantalla mostrando un panel de seguridad de datos.",
-      "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwc2VjdXJpdHl8ZW58MHx8fHwxNzcwNDQ5NDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/digitaliza_gestiondecertificadoselectroparaemple.png",
       "imageHint": "data security"
     },
     {
       "id": "efficient-investment",
       "description": "Una pantalla mostrando gráficos y analíticas de crecimiento.",
-      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzcwNDQ5NDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/digitaliza_comunicaciondocentes.png",
       "imageHint": "analytics dashboard"
     },
     {
       "id": "simplified-management",
       "description": "Una pantalla con una interfaz de panel de control simple y limpia.",
-      "imageUrl": "https://images.unsplash.com/photo-1512428209895-2434a5e975d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaW1wbGUlMjB1aXxlbnwwfHx8fDE3NzA0NDk0OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/digitaliza_recibosemitidos.png",
       "imageHint": "simple ui"
     },
     {
