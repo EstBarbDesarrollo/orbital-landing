@@ -10,6 +10,7 @@ export function VerDemoButton() {
         width={89}
         height={31}
         className="transition-transform hover:scale-105"
+        priority
       />
     </Link>
   );

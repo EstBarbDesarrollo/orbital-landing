@@ -10,6 +10,7 @@ export function IngresarButton() {
         width={156}
         height={34}
         className="transition-transform hover:scale-105"
+        priority
       />
     </Link>
   );

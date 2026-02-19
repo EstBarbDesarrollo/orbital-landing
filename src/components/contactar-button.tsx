@@ -8,6 +8,7 @@ export function ContactarButton() {
         alt="Contactar un asesor"
         width={135}
         height={34}
+        priority
       />
     </div>
   );
