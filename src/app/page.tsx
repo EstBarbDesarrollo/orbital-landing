@@ -11,10 +11,17 @@ export default function Home() {
     <div className="flex flex-col min-h-dvh bg-background">
       <Header />
       <main className="flex-grow">
-        <HeroSection />
-        <div className="relative z-10 -mt-12 md:-mt-16 lg:-mt-24">
-          <FeaturesBar />
+        <div className="relative">
+          <HeroSection />
+          {/* Contenedor posicionado con porcentajes relativo al Hero */}
+          <div className="absolute left-[6%] right-[6%] bottom-0 translate-y-[40%] z-20">
+            <FeaturesBar />
+          </div>
         </div>
+        
+        {/* Espaciador proporcional para compensar el solapamiento del banner */}
+        <div className="h-12 md:h-20 lg:h-32"></div>
+        
         <DigitalizeSection />
         <ExperienceImageSection />
         <ProcessSection />
