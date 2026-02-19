@@ -31,9 +31,9 @@ export function DigitalizeSection() {
         priority
       />
       
-      {/* Contenedor de la computadora con pantalla dinámica */}
+      {/* Contenedor de la computadora con pantalla dinámica alineado al 6.3% */}
       {computerImage && (
-        <div className="absolute top-[32%] left-[6%] w-[42%]">
+        <div className="absolute top-[32%] left-[6.3%] w-[42%]">
             <div className="relative">
                 {/* Imagen del marco de la computadora */}
                 <Image
@@ -44,8 +44,8 @@ export function DigitalizeSection() {
                     className="w-full h-auto relative z-10 pointer-events-none"
                     data-ai-hint={computerImage.imageHint}
                 />
-                {/* Contenedor de la pantalla dinámica - Posicionado ENCIMA (z-20) */}
-                <div className="absolute top-[4.7%] left-[9.3%] w-[81.58%] h-[61.4%] z-20 overflow-hidden bg-black rounded-[0.5%] shadow-inner">
+                {/* Pantalla dinámica: un poco más chica ajustando márgenes internos */}
+                <div className="absolute top-[7%] left-[12%] w-[76%] h-[57%] z-20 overflow-hidden bg-black rounded-[0.5%] shadow-inner">
                     {activeImage && (
                       <Image
                         src={activeImage.imageUrl}
@@ -60,9 +60,9 @@ export function DigitalizeSection() {
         </div>
       )}
 
-      {/* 1_firma con efecto hover - AQUÍ VES TAMAÑO Y UBICACIÓN */}
+      {/* Ítems alineados proporcionalmente al lado derecho */}
       <div 
-        className="absolute top-[19%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        className="absolute top-[19%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('firma')}
       >
         <Image 
@@ -81,9 +81,8 @@ export function DigitalizeSection() {
         />
       </div>
 
-      {/* 2_centralizacion con efecto hover */}
       <div 
-        className="absolute top-[33.7%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        className="absolute top-[33.7%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('centralizacion')}
       >
         <Image 
@@ -102,9 +101,8 @@ export function DigitalizeSection() {
         />
       </div>
 
-      {/* 3_informacion con efecto hover */}
       <div 
-        className="absolute top-[49.4%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        className="absolute top-[49.4%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('informacion')}
       >
         <Image 
@@ -123,9 +121,8 @@ export function DigitalizeSection() {
         />
       </div>
 
-      {/* 4_inversion con efecto hover */}
       <div 
-        className="absolute top-[65.1%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        className="absolute top-[65.1%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('inversion')}
       >
         <Image 
@@ -144,9 +141,8 @@ export function DigitalizeSection() {
         />
       </div>
 
-      {/* 5_gestion con efecto hover */}
       <div 
-        className="absolute top-[80.8%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        className="absolute top-[80.8%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('gestion')}
       >
         <Image 

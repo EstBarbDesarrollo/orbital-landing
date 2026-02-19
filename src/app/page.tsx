@@ -1,3 +1,4 @@
+
 import { Header } from '@/components/header';
 import { HeroSection } from '@/components/hero-section';
 import { FeaturesBar } from '@/components/features-bar';
@@ -13,8 +14,8 @@ export default function Home() {
       <main className="flex-grow">
         <div className="relative">
           <HeroSection />
-          {/* Contenedor posicionado con porcentajes relativo al Hero */}
-          <div className="absolute left-[6%] right-[6%] bottom-0 translate-y-[40%] z-20">
+          {/* Contenedor posicionado con porcentajes relativo al Hero alineado al 6.3% */}
+          <div className="absolute left-[6.3%] right-[6.3%] bottom-0 translate-y-[40%] z-20">
             <FeaturesBar />
           </div>
         </div>

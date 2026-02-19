@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 import { Button } from './ui/button';
@@ -21,8 +22,8 @@ export function ExperienceImageSection() {
             priority
           />
           <div className="absolute inset-0">
-            {/* Contenedor posicionado con porcentajes respecto al banner */}
-            <div className="absolute top-[80%] left-[8.5%] w-[50%]">
+            {/* Contenedor posicionado con porcentajes alineado al 6.3% */}
+            <div className="absolute top-[80%] left-[6.3%] w-[50%]">
               <div className="flex flex-row items-center gap-[1vw]">
                 <Button 
                   asChild 
