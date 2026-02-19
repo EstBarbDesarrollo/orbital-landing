@@ -3,13 +3,13 @@
     {
       "id": "hero-background",
       "description": "Personas en una reunión de oficina con gráficos de la plataforma Orbital superpuestos.",
-      "imageUrl": "/hero-banner.jpg",
+      "imageUrl": "/hero-banner.jpg?v=2",
       "imageHint": "office meeting platform"
     },
     {
       "id": "computer-overlay",
       "description": "Una computadora mostrando la plataforma Orbital.",
-      "imageUrl": "/pantalla-muestra-plataforma-clip.png",
+      "imageUrl": "/pantalla-muestra-plataforma-clip.png?v=2",
       "imageHint": "computer platform"
     },
     {

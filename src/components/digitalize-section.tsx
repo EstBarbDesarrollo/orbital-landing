@@ -60,7 +60,7 @@ export function DigitalizeSection() {
         </div>
       )}
 
-      {/* 1_firma con efecto hover */}
+      {/* 1_firma con efecto hover - AQUÍ VES TAMAÑO Y UBICACIÓN */}
       <div 
         className="absolute top-[19%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('firma')}
