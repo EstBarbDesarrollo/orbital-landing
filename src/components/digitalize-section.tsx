@@ -32,29 +32,31 @@ export function DigitalizeSection() {
       
       {/* Contenedor de la computadora con pantalla dinámica */}
       {computerImage && (
-        <div className="absolute top-[32%] left-[6%] w-[42%] aspect-[600/400]">
-            {/* Imagen del marco de la computadora */}
-            <Image
-                src={computerImage.imageUrl}
-                alt={computerImage.description}
-                width={600}
-                height={400}
-                className="w-full h-auto relative z-10 pointer-events-none"
-                data-ai-hint={computerImage.imageHint}
-                priority
-            />
-            {/* Contenedor de la pantalla (ajustar porcentajes si es necesario) */}
-            <div className="absolute top-[5%] left-[12%] w-[76%] h-[80%] z-0 overflow-hidden bg-black rounded-[1%]">
-                {activeImage && (
-                  <Image
-                    src={activeImage.imageUrl}
-                    alt={activeImage.description}
-                    fill
-                    className="object-cover transition-opacity duration-500"
-                    data-ai-hint={activeImage.imageHint}
+        <div className="absolute top-[32%] left-[6%] w-[42%]">
+            <div className="relative">
+                {/* Imagen del marco de la computadora */}
+                <Image
+                    src={computerImage.imageUrl}
+                    alt={computerImage.description}
+                    width={600}
+                    height={400}
+                    className="w-full h-auto relative z-10 pointer-events-none"
+                    data-ai-hint={computerImage.imageHint}
                     priority
-                  />
-                )}
+                />
+                {/* Contenedor de la pantalla dinámica - Posicionado ENCIMA (z-20) */}
+                <div className="absolute top-[5.8%] left-[12.3%] w-[75.4%] h-[78.5%] z-20 overflow-hidden bg-black rounded-[0.5%] shadow-inner">
+                    {activeImage && (
+                      <Image
+                        src={activeImage.imageUrl}
+                        alt={activeImage.description}
+                        fill
+                        className="object-cover transition-opacity duration-500"
+                        data-ai-hint={activeImage.imageHint}
+                        priority
+                      />
+                    )}
+                </div>
             </div>
         </div>
       )}
