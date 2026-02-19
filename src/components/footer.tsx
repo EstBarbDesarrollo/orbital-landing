@@ -23,35 +23,35 @@ export function Footer() {
                 </Link>
             </Button>
         </div>
-        <div className="absolute top-[30%] left-[50.2%] w-[14.4%] h-[24.6%]">
+        <div className="absolute top-[30%] left-[50.2%] w-[14.4%] h-[24.6%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
                 <Link href={platformUrl} aria-label="Ingresar a la plataforma">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>
         </div> 
-        <div className="absolute top-[31%] left-[66.8%] w-[1.6%] h-[20%]">
+        <div className="absolute top-[31%] left-[66.8%] w-[1.6%] h-[20%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
                 <Link href="#" aria-label="Red social 1">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>
         </div>  
-        <div className="absolute top-[31%] left-[71.15%] w-[1.6%] h-[20%]">
+        <div className="absolute top-[31%] left-[71.15%] w-[1.6%] h-[20%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
                 <Link href="#" aria-label="Red social 2">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>
         </div>   
-        <div className="absolute top-[31%] left-[75.5%] w-[1.6%] h-[20%]">
+        <div className="absolute top-[31%] left-[75.5%] w-[1.6%] h-[20%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
                 <Link href="#" aria-label="Red social 3">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>
         </div>  
-        <div className="absolute top-[14%] left-[88.1%] w-[6%] h-[55%]">
+        <div className="absolute top-[14%] left-[88.1%] w-[6%] h-[55%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
                 <Link href="#" aria-label="Contacto">
                   <span className="text-transparent"></span>
