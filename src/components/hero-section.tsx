@@ -27,6 +27,7 @@ export function HeroSection() {
                 alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
                 width={427}
                 height={128}
+                priority
               />
               <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
                 <Button size="lg" asChild className="rounded-full">

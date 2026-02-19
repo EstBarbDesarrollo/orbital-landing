@@ -12,6 +12,7 @@ export function DigitalizeSection() {
         width={1920}
         height={827}
         className="w-full h-auto"
+        priority
       />
       {computerImage && (
         <div className="absolute top-[32%] left-[6%] w-[42%]">
@@ -27,13 +28,14 @@ export function DigitalizeSection() {
       )}
 
       {/* 1_firma con efecto hover */}
-      <div className="absolute top-[19%] left-[56%] w-[35%] group cursor-pointer">
+      <div className="absolute top-[19%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
         <Image 
           src="/1_firma_black.png" 
           alt="Firma" 
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+          priority
         />
         <Image 
           src="/1_firma_blue.png" 
@@ -45,7 +47,7 @@ export function DigitalizeSection() {
       </div>
 
       {/* 2_centralizacion con efecto hover */}
-      <div className="absolute top-[33.7%] left-[56%] w-[35%] group cursor-pointer">
+      <div className="absolute top-[33.7%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
         <Image 
           src="/2_centralizacion_black.png" 
           alt="Centralizacion" 
@@ -63,7 +65,7 @@ export function DigitalizeSection() {
       </div>
 
       {/* 3_informacion con efecto hover */}
-      <div className="absolute top-[49.4%] left-[56%] w-[35%] group cursor-pointer">
+      <div className="absolute top-[49.4%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
         <Image 
           src="/3_informacion_black.png" 
           alt="Informacion" 
@@ -81,7 +83,7 @@ export function DigitalizeSection() {
       </div>
 
       {/* 4_inversion con efecto hover */}
-      <div className="absolute top-[65.1%] left-[56%] w-[35%] group cursor-pointer">
+      <div className="absolute top-[65.1%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
         <Image 
           src="/4_inversion_black.png" 
           alt="Inversion" 
@@ -99,7 +101,7 @@ export function DigitalizeSection() {
       </div>
 
       {/* 5_gestion con efecto hover */}
-      <div className="absolute top-[80.8%] left-[56%] w-[35%] group cursor-pointer">
+      <div className="absolute top-[80.8%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
         <Image 
           src="/5_gestion_black.png" 
           alt="Gestion" 
