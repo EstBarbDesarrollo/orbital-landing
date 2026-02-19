@@ -31,7 +31,7 @@ export function HeroSection() {
               />
               <div className="mt-4 flex flex-col sm:flex-row items-start gap-4">
                 <Button size="lg" asChild className="rounded-full">
-                  <Link href="#features">Conocer Orbital</Link>
+                  <Link href="#digitalize">Conocer Orbital</Link>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-background rounded-full" asChild>
                   <Link href="https://accesoorbital.estudiobarbosa.com.ar">Ingresar a Orbital</Link>

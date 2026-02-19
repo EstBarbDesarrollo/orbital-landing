@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function VerDemoButton() {
   return (
-    <Link href="#" className="inline-block">
+    <Link href="#digitalize" className="inline-block">
       <Image
         src="/ver-demo-btn.png"
         alt="Ver demo"

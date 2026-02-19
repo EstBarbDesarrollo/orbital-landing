@@ -5,7 +5,7 @@ export function DigitalizeSection() {
   const computerImage = PlaceHolderImages.find((img) => img.id === 'computer-overlay');
 
   return (
-    <section className="relative">
+    <section id="digitalize" className="relative scroll-mt-20">
       <Image
         src="/digitaliza-features_.png"
         alt="Características de Orbital: Digitalizá, Ordená, Agilizá, Centralizá"
