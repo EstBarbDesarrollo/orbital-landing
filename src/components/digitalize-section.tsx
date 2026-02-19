@@ -28,7 +28,7 @@ export function DigitalizeSection() {
         </div>
       )}
 
-      {/* 1_firma_black con efecto hover a blue */}
+      {/* 1_firma con efecto hover */}
       <div className="absolute top-[19%] left-[56%] w-[35%] group cursor-pointer">
         <Image 
           src="/1_firma_black.png" 
@@ -46,15 +46,24 @@ export function DigitalizeSection() {
         />
       </div>
 
-      <div className="absolute top-[33.7%] left-[56%] w-[35%]">
+      {/* 2_centralizacion con efecto hover */}
+      <div className="absolute top-[33.7%] left-[56%] w-[35%] group cursor-pointer">
         <Image 
           src="/2_centralizacion_black.png" 
           alt="Centralizacion" 
           width={672} 
           height={100} 
-          className="w-full h-auto object-contain"
+          className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+        />
+        <Image 
+          src="/2_centralizacion_blue.png" 
+          alt="Centralizacion" 
+          width={672} 
+          height={100} 
+          className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
       </div>
+
       <div className="absolute top-[49.4%] left-[56%] w-[35%]">
         <Image 
           src="/3_informacion_black.png" 
