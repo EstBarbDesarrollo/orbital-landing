@@ -70,19 +70,19 @@ export function DigitalizeSection() {
           className="absolute top-[19%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
           onMouseEnter={() => setActiveItem('firma')}
         >
-          <div className="relative w-full h-full flex items-center justify-center">
+          <div className="relative w-full h-full flex items-center justify-start">
             <div className="relative w-[95%] h-[95%]">
               <Image 
                 src="/1_firma_black.png?v=2" 
                 alt="Firma Digital Orbital" 
                 fill
-                className="object-contain transition-opacity duration-300 group-hover:opacity-0"
+                className="object-contain object-left transition-opacity duration-300 group-hover:opacity-0"
               />
               <Image 
                 src="/1_firma_blue.png?v=2" 
                 alt="Firma Digital Orbital" 
                 fill
-                className="absolute top-0 left-0 object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                className="absolute top-0 left-0 object-contain object-left opacity-0 transition-opacity duration-300 group-hover:opacity-100"
               />
             </div>
           </div>
@@ -98,13 +98,13 @@ export function DigitalizeSection() {
               src="/2_centralizacion_black.png?v=2" 
               alt="Centralización de documentos" 
               fill
-              className="object-contain transition-opacity duration-300 group-hover:opacity-0"
+              className="object-contain object-left transition-opacity duration-300 group-hover:opacity-0"
             />
             <Image 
               src="/2_centralizacion_blue.png?v=2" 
               alt="Centralización de documentos" 
               fill
-              className="absolute top-0 left-0 object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              className="absolute top-0 left-0 object-contain object-left opacity-0 transition-opacity duration-300 group-hover:opacity-100"
             />
           </div>
         </div>
@@ -119,13 +119,13 @@ export function DigitalizeSection() {
               src="/3_informacion_black.png?v=2" 
               alt="Información segura" 
               fill
-              className="object-contain transition-opacity duration-300 group-hover:opacity-0"
+              className="object-contain object-left transition-opacity duration-300 group-hover:opacity-0"
             />
             <Image 
               src="/3_informacion_blue.png?v=2" 
               alt="Información segura" 
               fill
-              className="absolute top-0 left-0 object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              className="absolute top-0 left-0 object-contain object-left opacity-0 transition-opacity duration-300 group-hover:opacity-100"
             />
           </div>
         </div>
@@ -140,13 +140,13 @@ export function DigitalizeSection() {
               src="/4_inversion_black.png?v=2" 
               alt="Inversión eficiente" 
               fill
-              className="object-contain transition-opacity duration-300 group-hover:opacity-0"
+              className="object-contain object-left transition-opacity duration-300 group-hover:opacity-0"
             />
             <Image 
               src="/4_inversion_blue.png?v=2" 
               alt="Inversión eficiente" 
               fill
-              className="absolute top-0 left-0 object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              className="absolute top-0 left-0 object-contain object-left opacity-0 transition-opacity duration-300 group-hover:opacity-100"
             />
           </div>
         </div>
@@ -161,13 +161,13 @@ export function DigitalizeSection() {
               src="/5_gestion_black.png?v=2" 
               alt="Gestión simplificada" 
               fill
-              className="object-contain transition-opacity duration-300 group-hover:opacity-0"
+              className="object-contain object-left transition-opacity duration-300 group-hover:opacity-0"
             />
             <Image 
               src="/5_gestion_blue.png?v=2" 
               alt="Gestión simplificada" 
               fill
-              className="absolute top-0 left-0 object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              className="absolute top-0 left-0 object-contain object-left opacity-0 transition-opacity duration-300 group-hover:opacity-100"
             />
           </div>
         </div>
