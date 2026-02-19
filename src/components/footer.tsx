@@ -5,6 +5,8 @@ import { Button } from './ui/button';
 
 export function Footer() {
   const platformUrl = "https://accesoorbital.estudiobarbosa.com.ar";
+  const instagramUrl = "https://www.instagram.com/estudio.barbosa/";
+  const linkedinUrl = "https://www.linkedin.com/company/estudio-barbosa/";
 
   return (
     <footer id="contact" className="bg-white w-full relative">
@@ -17,7 +19,7 @@ export function Footer() {
               className="w-full h-auto object-contain"
             />
         </div>
-        <div className="absolute top-[29.4%] left-[6.9%] w-[10.1%] h-[24.4%]">
+        <div className="absolute top-[29.4%] left-[6.9%] w-[10.1%] h-[24.4%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
                 <Link href={platformUrl} aria-label="Ir a la plataforma Orbital">
                   <span className="text-transparent"></span>
@@ -33,14 +35,14 @@ export function Footer() {
         </div> 
         <div className="absolute top-[31%] left-[66.8%] w-[1.6%] h-[20%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
-                <Link href="#" aria-label="Red social 1">
+                <Link href={instagramUrl} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>
         </div>  
         <div className="absolute top-[31%] left-[71.15%] w-[1.6%] h-[20%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
-                <Link href="#" aria-label="Red social 2">
+                <Link href={linkedinUrl} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>
@@ -54,7 +56,7 @@ export function Footer() {
         </div>  
         <div className="absolute top-[14%] left-[88.1%] w-[6%] h-[55%] transition-transform hover:scale-105">
             <Button asChild variant="outline" className="w-full h-full bg-transparent border-transparent hover:bg-transparent rounded-md">
-                <Link href="#" aria-label="Contacto">
+                <Link href="https://wa.me/5492215454405" target="_blank" rel="noopener noreferrer" aria-label="Contacto">
                   <span className="text-transparent"></span>
                 </Link>
             </Button>

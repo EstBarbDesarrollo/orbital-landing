@@ -3,49 +3,49 @@
     {
       "id": "hero-background",
       "description": "Personas en una reunión de oficina con gráficos de la plataforma Orbital superpuestos.",
-      "imageUrl": "/hero-banner.jpg?v=2",
+      "imageUrl": "/hero-banner.jpg",
       "imageHint": "office meeting platform"
     },
     {
       "id": "computer-overlay",
       "description": "Una computadora mostrando la plataforma Orbital.",
-      "imageUrl": "/pantalla-muestra-plataforma-clip.png?v=2",
+      "imageUrl": "/pantalla-muestra-plataforma-clip.png",
       "imageHint": "computer platform"
     },
     {
       "id": "digital-signature",
       "description": "Una pantalla mostrando un documento con firma digital.",
-      "imageUrl": "/digitaliza_home.png?v=2",
+      "imageUrl": "/digitaliza_home.png",
       "imageHint": "digital signature"
     },
     {
       "id": "document-centralization",
       "description": "Una pantalla mostrando un sistema de gestión de archivos.",
-      "imageUrl": "/digitaliza_registroempleados.png?v=2",
+      "imageUrl": "/digitaliza_registroempleados.png",
       "imageHint": "file management"
     },
     {
       "id": "secure-information",
       "description": "Una pantalla mostrando un panel de seguridad de datos.",
-      "imageUrl": "/digitaliza_gestiondecertificadoselectroparaemple.png?v=2",
+      "imageUrl": "/digitaliza_gestiondecertificadoselectroparaemple.png",
       "imageHint": "data security"
     },
     {
       "id": "efficient-investment",
       "description": "Una pantalla mostrando gráficos y analíticas de crecimiento.",
-      "imageUrl": "/digitaliza_comunicaciondocentes.png?v=2",
+      "imageUrl": "/digitaliza_comunicaciondocentes.png",
       "imageHint": "analytics dashboard"
     },
     {
       "id": "simplified-management",
       "description": "Una pantalla con una interfaz de panel de control simple y limpia.",
-      "imageUrl": "/digitaliza_recibosemitidos.png?v=2",
+      "imageUrl": "/digitaliza_recibosemitidos.png",
       "imageHint": "simple ui"
     },
     {
       "id": "process-1",
       "description": "Paso 1: Conocemos la organización",
-      "imageUrl": "/process-step-1.png?v=2",
+      "imageUrl": "/process-step-1.png",
       "imageHint": "organization analysis"
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": "experience-banner",
       "description": "Banner de la sección de experiencia de Estudio Barbosa",
-      "imageUrl": "/estudio_barbosa_30_erase.png?v=2",
+      "imageUrl": "/estudio_barbosa_30_erase.png",
       "imageHint": "experience banner"
     }
   ]
