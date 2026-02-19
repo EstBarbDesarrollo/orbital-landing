@@ -40,7 +40,7 @@ export function HeroSection() {
             </Button>
             <Button 
               variant="outline" 
-              className="h-[3.4vw] px-[2.4vw] text-[1.1vw] bg-background rounded-full text-[#6F26C6] border-[0.15vw] border-[#6F26C6] transition-transform hover:scale-105 hover:bg-background hover:text-[#6F26C6] font-bold" 
+              className="h-[3.4vw] px-[2.4vw] text-[1.1vw] bg-background rounded-full text-[#6F26C6] border-[0.15vw] border-background transition-transform hover:scale-105 hover:bg-background hover:text-[#6F26C6] font-bold" 
               asChild
             >
               <Link href="https://accesoorbital.estudiobarbosa.com.ar">Ingresar a Orbital</Link>

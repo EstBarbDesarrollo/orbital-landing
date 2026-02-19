@@ -22,7 +22,7 @@ export function ExperienceImageSection() {
           />
           <div className="absolute inset-0">
             {/* Contenedor posicionado con porcentajes respecto al banner */}
-            <div className="absolute top-[71%] left-[6.5%] w-[50%]">
+            <div className="absolute top-[80%] left-[8.5%] w-[50%]">
               <div className="flex flex-row items-center gap-[1vw]">
                 <Button 
                   asChild 
