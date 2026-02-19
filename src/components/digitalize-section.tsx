@@ -27,17 +27,20 @@ export function DigitalizeSection() {
             />
         </div>
       )}
-      {/* Botón 1 con imagen anclada */}
+
+      {/* Imagen 1_firma_black.png posicionada según requerimiento */}
+      <div className="absolute top-[19%] left-[56%] w-[35%]">
+        <Image 
+          src="/1_firma_black.png" 
+          alt="Firma" 
+          width={672} 
+          height={100} 
+          className="w-full h-auto object-contain"
+        />
+      </div>
+
+      {/* Botón 1 */}
       <div className="absolute top-[19%] left-[57%] w-[35%] h-[12%]">
-        <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 z-20">
-          <Image 
-            src="/1_firma_black.png" 
-            alt="Firma" 
-            width={45} 
-            height={45} 
-            className="object-contain"
-          />
-        </div>
         <Button 
           asChild 
           variant="outline" 
