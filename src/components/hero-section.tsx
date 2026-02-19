@@ -33,7 +33,12 @@ export function HeroSection() {
                 <Button size="lg" asChild className="rounded-full transition-transform hover:scale-105">
                   <Link href="#digitalize">Conocer Orbital</Link>
                 </Button>
-                <Button size="lg" variant="outline" className="bg-background rounded-full" asChild>
+                <Button 
+                  size="lg" 
+                  variant="outline" 
+                  className="bg-background rounded-full text-primary border-primary transition-transform hover:scale-105 hover:bg-background hover:text-primary" 
+                  asChild
+                >
                   <Link href="https://accesoorbital.estudiobarbosa.com.ar">Ingresar a Orbital</Link>
                 </Button>
               </div>
