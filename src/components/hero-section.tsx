@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -23,7 +24,7 @@ export function HeroSection() {
           <div className="relative top-[64px]">
             <div className="flex flex-col items-start">
               <Image
-                src="/hero-text.png"
+                src="/hero-text.png?v=2"
                 alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
                 width={427}
                 height={128}

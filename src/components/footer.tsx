@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from './ui/button';
@@ -9,7 +10,7 @@ export function Footer() {
     <footer id="contact" className="bg-white w-full relative">
         <div className="pointer-events-none">
             <Image
-              src="/new-footer.png"
+              src="/new-footer.png?v=2"
               alt="Pie de página de Orbital con logo, botón de ingreso, y redes sociales."
               width={1920}
               height={110}

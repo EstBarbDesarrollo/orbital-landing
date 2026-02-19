@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -22,7 +23,7 @@ export function DigitalizeSection() {
   return (
     <section id="digitalize" className="relative scroll-mt-20">
       <Image
-        src="/digitaliza-features_.png"
+        src="/digitaliza-features_.png?v=2"
         alt="Características de Orbital: Digitalizá, Ordená, Agilizá, Centralizá"
         width={1920}
         height={827}
@@ -42,7 +43,6 @@ export function DigitalizeSection() {
                     height={400}
                     className="w-full h-auto relative z-10 pointer-events-none"
                     data-ai-hint={computerImage.imageHint}
-                    priority
                 />
                 {/* Contenedor de la pantalla dinámica - Posicionado ENCIMA (z-20) */}
                 <div className="absolute top-[4.7%] left-[9.3%] w-[81.58%] h-[61.4%] z-20 overflow-hidden bg-black rounded-[0.5%] shadow-inner">
@@ -53,7 +53,6 @@ export function DigitalizeSection() {
                         fill
                         className="object-cover transition-opacity duration-500"
                         data-ai-hint={activeImage.imageHint}
-                        priority
                       />
                     )}
                 </div>
@@ -67,20 +66,18 @@ export function DigitalizeSection() {
         onMouseEnter={() => setActiveItem('firma')}
       >
         <Image 
-          src="/1_firma_black.png" 
+          src="/1_firma_black.png?v=2" 
           alt="Firma" 
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
-          priority
         />
         <Image 
-          src="/1_firma_blue.png" 
+          src="/1_firma_blue.png?v=2" 
           alt="Firma" 
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-          priority
         />
       </div>
 
@@ -90,20 +87,18 @@ export function DigitalizeSection() {
         onMouseEnter={() => setActiveItem('centralizacion')}
       >
         <Image 
-          src="/2_centralizacion_black.png" 
+          src="/2_centralizacion_black.png?v=2" 
           alt="Centralizacion" 
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
-          priority
         />
         <Image 
-          src="/2_centralizacion_blue.png" 
+          src="/2_centralizacion_blue.png?v=2" 
           alt="Centralizacion" 
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-          priority
         />
       </div>
 
@@ -113,20 +108,18 @@ export function DigitalizeSection() {
         onMouseEnter={() => setActiveItem('informacion')}
       >
         <Image 
-          src="/3_informacion_black.png" 
+          src="/3_informacion_black.png?v=2" 
           alt="Informacion" 
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
-          priority
         />
         <Image 
-          src="/3_informacion_blue.png" 
+          src="/3_informacion_blue.png?v=2" 
           alt="Informacion" 
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-          priority
         />
       </div>
 
@@ -136,20 +129,18 @@ export function DigitalizeSection() {
         onMouseEnter={() => setActiveItem('inversion')}
       >
         <Image 
-          src="/4_inversion_black.png" 
+          src="/4_inversion_black.png?v=2" 
           alt="Inversion" 
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
-          priority
         />
         <Image 
-          src="/4_inversion_blue.png" 
+          src="/4_inversion_blue.png?v=2" 
           alt="Inversion" 
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-          priority
         />
       </div>
 
@@ -159,20 +150,18 @@ export function DigitalizeSection() {
         onMouseEnter={() => setActiveItem('gestion')}
       >
         <Image 
-          src="/5_gestion_black.png" 
+          src="/5_gestion_black.png?v=2" 
           alt="Gestion" 
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
-          priority
         />
         <Image 
-          src="/5_gestion_blue.png" 
+          src="/5_gestion_blue.png?v=2" 
           alt="Gestion" 
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-          priority
         />
       </div>
     </section>

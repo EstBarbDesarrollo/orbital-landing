@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -7,7 +8,7 @@ export function FeaturesBar() {
     <div className="container pl-16 pr-16">
       <div className="relative w-full overflow-hidden rounded-2xl shadow-lg transition-transform hover:scale-[1.01]">
         <Image
-          src="/banner-caracteristicas.png"
+          src="/banner-caracteristicas.png?v=2"
           alt="Características de Orbital: Firma Digital, Eliminación de papel, Información protegida, Centralización de documentos"
           width={1400}
           height={160}
