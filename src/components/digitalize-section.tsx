@@ -45,7 +45,7 @@ export function DigitalizeSection() {
                     priority
                 />
                 {/* Contenedor de la pantalla dinámica - Posicionado ENCIMA (z-20) */}
-                <div className="absolute top-[5.8%] left-[12.3%] w-[75.4%] h-[78.5%] z-20 overflow-hidden bg-black rounded-[0.5%] shadow-inner">
+                <div className="absolute top-[4.7%] left-[9.3%] w-[81.58%] h-[61.4%] z-20 overflow-hidden bg-black rounded-[0.5%] shadow-inner">
                     {activeImage && (
                       <Image
                         src={activeImage.imageUrl}
