@@ -23,6 +23,7 @@ export function DigitalizeSection() {
                 height={400}
                 className="w-full h-auto"
                 data-ai-hint={computerImage.imageHint}
+                priority
             />
         </div>
       )}
@@ -43,6 +44,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          priority
         />
       </div>
 
@@ -54,6 +56,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+          priority
         />
         <Image 
           src="/2_centralizacion_blue.png" 
@@ -61,6 +64,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          priority
         />
       </div>
 
@@ -72,6 +76,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+          priority
         />
         <Image 
           src="/3_informacion_blue.png" 
@@ -79,6 +84,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          priority
         />
       </div>
 
@@ -90,6 +96,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+          priority
         />
         <Image 
           src="/4_inversion_blue.png" 
@@ -97,6 +104,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          priority
         />
       </div>
 
@@ -108,6 +116,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+          priority
         />
         <Image 
           src="/5_gestion_blue.png" 
@@ -115,6 +124,7 @@ export function DigitalizeSection() {
           width={672} 
           height={100} 
           className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          priority
         />
       </div>
     </section>

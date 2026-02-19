@@ -9,7 +9,7 @@ export function ExperienceImageSection() {
   return (
     <section className="mt-14 relative">
       {image && (
-        <>
+        <div className="w-full aspect-[1920/580] relative">
           <Image
             src={image.imageUrl}
             alt={image.description}
@@ -17,6 +17,7 @@ export function ExperienceImageSection() {
             height={580}
             className="w-full h-auto"
             data-ai-hint={image.imageHint}
+            priority
           />
           <div className="absolute inset-0">
             <div className="absolute top-[80%] left-[9%]">
@@ -35,7 +36,7 @@ export function ExperienceImageSection() {
               </div>
             </div>
           </div>
-        </>
+        </div>
       )}
     </section>
   );
