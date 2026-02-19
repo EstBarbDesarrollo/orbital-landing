@@ -31,7 +31,7 @@ export function DigitalizeSection() {
         priority
       />
       
-      {/* Contenedor de la computadora con pantalla dinámica alineado al 6.3% */}
+      {/* Contenedor de la computadora alineado al 6.3% */}
       {computerImage && (
         <div className="absolute top-[32%] left-[6.3%] w-[42%]">
             <div className="relative">
@@ -44,7 +44,7 @@ export function DigitalizeSection() {
                     className="w-full h-auto relative z-10 pointer-events-none"
                     data-ai-hint={computerImage.imageHint}
                 />
-                {/* Pantalla dinámica: un poco más chica ajustando márgenes internos */}
+                {/* Pantalla dinámica: Restaurada para llenar el marco correctamente */}
                 <div className="absolute top-[7%] left-[12%] w-[76%] h-[57%] z-20 overflow-hidden bg-black rounded-[0.5%] shadow-inner">
                     {activeImage && (
                       <Image
@@ -60,7 +60,7 @@ export function DigitalizeSection() {
         </div>
       )}
 
-      {/* Ítems alineados proporcionalmente al lado derecho */}
+      {/* Ítems alineados proporcionalmente al lado derecho (Margen derecho 6.3%) */}
       <div 
         className="absolute top-[19%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('firma')}
