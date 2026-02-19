@@ -1,8 +1,23 @@
+'use client';
+
 import Image from 'next/image';
+import { useState } from 'react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function DigitalizeSection() {
+  const [activeItem, setActiveItem] = useState<'firma' | 'centralizacion' | 'informacion' | 'inversion' | 'gestion'>('firma');
+  
   const computerImage = PlaceHolderImages.find((img) => img.id === 'computer-overlay');
+  
+  const itemImages = {
+    firma: PlaceHolderImages.find((img) => img.id === 'digital-signature'),
+    centralizacion: PlaceHolderImages.find((img) => img.id === 'document-centralization'),
+    informacion: PlaceHolderImages.find((img) => img.id === 'secure-information'),
+    inversion: PlaceHolderImages.find((img) => img.id === 'efficient-investment'),
+    gestion: PlaceHolderImages.find((img) => img.id === 'simplified-management'),
+  };
+
+  const activeImage = itemImages[activeItem];
 
   return (
     <section id="digitalize" className="relative scroll-mt-20">
@@ -14,22 +29,41 @@ export function DigitalizeSection() {
         className="w-full h-auto"
         priority
       />
+      
+      {/* Contenedor de la computadora con pantalla dinámica */}
       {computerImage && (
-        <div className="absolute top-[32%] left-[6%] w-[42%]">
+        <div className="absolute top-[32%] left-[6%] w-[42%] aspect-[600/400]">
+            {/* Imagen del marco de la computadora */}
             <Image
                 src={computerImage.imageUrl}
                 alt={computerImage.description}
                 width={600}
                 height={400}
-                className="w-full h-auto"
+                className="w-full h-auto relative z-10 pointer-events-none"
                 data-ai-hint={computerImage.imageHint}
                 priority
             />
+            {/* Contenedor de la pantalla (ajustar porcentajes si es necesario) */}
+            <div className="absolute top-[5%] left-[12%] w-[76%] h-[80%] z-0 overflow-hidden bg-black rounded-[1%]">
+                {activeImage && (
+                  <Image
+                    src={activeImage.imageUrl}
+                    alt={activeImage.description}
+                    fill
+                    className="object-cover transition-opacity duration-500"
+                    data-ai-hint={activeImage.imageHint}
+                    priority
+                  />
+                )}
+            </div>
         </div>
       )}
 
       {/* 1_firma con efecto hover */}
-      <div className="absolute top-[19%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
+      <div 
+        className="absolute top-[19%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        onMouseEnter={() => setActiveItem('firma')}
+      >
         <Image 
           src="/1_firma_black.png" 
           alt="Firma" 
@@ -49,7 +83,10 @@ export function DigitalizeSection() {
       </div>
 
       {/* 2_centralizacion con efecto hover */}
-      <div className="absolute top-[33.7%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
+      <div 
+        className="absolute top-[33.7%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        onMouseEnter={() => setActiveItem('centralizacion')}
+      >
         <Image 
           src="/2_centralizacion_black.png" 
           alt="Centralizacion" 
@@ -69,7 +106,10 @@ export function DigitalizeSection() {
       </div>
 
       {/* 3_informacion con efecto hover */}
-      <div className="absolute top-[49.4%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
+      <div 
+        className="absolute top-[49.4%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        onMouseEnter={() => setActiveItem('informacion')}
+      >
         <Image 
           src="/3_informacion_black.png" 
           alt="Informacion" 
@@ -89,7 +129,10 @@ export function DigitalizeSection() {
       </div>
 
       {/* 4_inversion con efecto hover */}
-      <div className="absolute top-[65.1%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
+      <div 
+        className="absolute top-[65.1%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        onMouseEnter={() => setActiveItem('inversion')}
+      >
         <Image 
           src="/4_inversion_black.png" 
           alt="Inversion" 
@@ -109,7 +152,10 @@ export function DigitalizeSection() {
       </div>
 
       {/* 5_gestion con efecto hover */}
-      <div className="absolute top-[80.8%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer">
+      <div 
+        className="absolute top-[80.8%] left-[56%] w-[35%] aspect-[6.72/1] group cursor-pointer"
+        onMouseEnter={() => setActiveItem('gestion')}
+      >
         <Image 
           src="/5_gestion_black.png" 
           alt="Gestion" 
