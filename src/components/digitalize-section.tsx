@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import { Button } from './ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function DigitalizeSection() {
@@ -64,31 +62,57 @@ export function DigitalizeSection() {
         />
       </div>
 
-      <div className="absolute top-[49.4%] left-[56%] w-[35%]">
+      {/* 3_informacion con efecto hover */}
+      <div className="absolute top-[49.4%] left-[56%] w-[35%] group cursor-pointer">
         <Image 
           src="/3_informacion_black.png" 
           alt="Informacion" 
           width={672} 
           height={100} 
-          className="w-full h-auto object-contain"
+          className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
         />
-      </div>
-      <div className="absolute top-[65.1%] left-[56%] w-[35%]">
         <Image 
-          src="/4_inversion_black.png" 
-          alt="Gestion" 
+          src="/3_informacion_blue.png" 
+          alt="Informacion" 
           width={672} 
           height={100} 
-          className="w-full h-auto object-contain"
+          className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
       </div>
-      <div className="absolute top-[80.8%] left-[56%] w-[35%]">
+
+      {/* 4_inversion con efecto hover */}
+      <div className="absolute top-[65.1%] left-[56%] w-[35%] group cursor-pointer">
+        <Image 
+          src="/4_inversion_black.png" 
+          alt="Inversion" 
+          width={672} 
+          height={100} 
+          className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+        />
+        <Image 
+          src="/4_inversion_blue.png" 
+          alt="Inversion" 
+          width={672} 
+          height={100} 
+          className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+        />
+      </div>
+
+      {/* 5_gestion con efecto hover */}
+      <div className="absolute top-[80.8%] left-[56%] w-[35%] group cursor-pointer">
         <Image 
           src="/5_gestion_black.png" 
           alt="Gestion" 
           width={672} 
           height={100} 
-          className="w-full h-auto object-contain"
+          className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-0"
+        />
+        <Image 
+          src="/5_gestion_blue.png" 
+          alt="Gestion" 
+          width={672} 
+          height={100} 
+          className="absolute top-0 left-0 w-full h-auto object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
       </div>
     </section>
