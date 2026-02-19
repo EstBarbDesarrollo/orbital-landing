@@ -22,7 +22,7 @@ export function HeroSection() {
       
       {/* Contenedor de contenido posicionado con porcentajes relativos al banner */}
       <div className="absolute top-[14%] left-[6.3%] w-[35%]">
-        <div className="flex flex-col items-start gap-4">
+        <div className="flex flex-col items-start gap-[1vw]">
           <Image
             src="/hero-text.png?v=2"
             alt="Plataforma Digital. Centro de gestión laboral accesible, seguro y ágil."
@@ -31,18 +31,16 @@ export function HeroSection() {
             className="w-full h-auto"
             priority
           />
-          <div className="mt-2 flex flex-col sm:flex-row items-start gap-4 w-full">
+          <div className="mt-[1vw] flex items-start gap-[1vw] w-full">
             <Button 
-              size="lg" 
               asChild 
-              className="rounded-full bg-[#6F26C6] hover:bg-[#6F26C6] text-white transition-transform hover:scale-105"
+              className="h-[3.4vw] px-[2.4vw] text-[1.1vw] rounded-full bg-[#6F26C6] hover:bg-[#6F26C6] text-white transition-transform hover:scale-105 border-none shadow-none font-bold"
             >
               <Link href="#digitalize">Conocer Orbital</Link>
             </Button>
             <Button 
-              size="lg" 
               variant="outline" 
-              className="bg-background rounded-full text-[#6F26C6] border-[#6F26C6] transition-transform hover:scale-105 hover:bg-background hover:text-[#6F26C6]" 
+              className="h-[3.4vw] px-[2.4vw] text-[1.1vw] bg-background rounded-full text-[#6F26C6] border-[0.15vw] border-[#6F26C6] transition-transform hover:scale-105 hover:bg-background hover:text-[#6F26C6] font-bold" 
               asChild
             >
               <Link href="https://accesoorbital.estudiobarbosa.com.ar">Ingresar a Orbital</Link>
