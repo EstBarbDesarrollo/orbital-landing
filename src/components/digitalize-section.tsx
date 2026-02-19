@@ -60,27 +60,32 @@ export function DigitalizeSection() {
         </div>
       )}
 
-      {/* Ítems con dimensiones relativas (%) dentro de sus contenedores */}
+      {/* Ítems interactivos alineados al margen derecho (93.7% total) */}
+      
+      {/* 1. Firma - SOLO este ítem tiene imágenes con dimensiones relativas (%) dentro de su contenedor */}
       <div 
         className="absolute top-[19%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('firma')}
       >
-        <div className="relative w-full h-full">
-          <Image 
-            src="/1_firma_black.png?v=2" 
-            alt="Firma Digital Orbital" 
-            fill
-            className="object-contain transition-opacity duration-300 group-hover:opacity-0"
-          />
-          <Image 
-            src="/1_firma_blue.png?v=2" 
-            alt="Firma Digital Orbital" 
-            fill
-            className="absolute top-0 left-0 object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-          />
+        <div className="relative w-full h-full flex items-center justify-center">
+          <div className="relative w-[95%] h-[95%]">
+            <Image 
+              src="/1_firma_black.png?v=2" 
+              alt="Firma Digital Orbital" 
+              fill
+              className="object-contain transition-opacity duration-300 group-hover:opacity-0"
+            />
+            <Image 
+              src="/1_firma_blue.png?v=2" 
+              alt="Firma Digital Orbital" 
+              fill
+              className="absolute top-0 left-0 object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            />
+          </div>
         </div>
       </div>
 
+      {/* 2. Centralización - Restaurado a w-full h-full para alineación estándar */}
       <div 
         className="absolute top-[33.7%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('centralizacion')}
@@ -101,6 +106,7 @@ export function DigitalizeSection() {
         </div>
       </div>
 
+      {/* 3. Información */}
       <div 
         className="absolute top-[49.4%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('informacion')}
@@ -121,6 +127,7 @@ export function DigitalizeSection() {
         </div>
       </div>
 
+      {/* 4. Inversión */}
       <div 
         className="absolute top-[65.1%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('inversion')}
@@ -141,6 +148,7 @@ export function DigitalizeSection() {
         </div>
       </div>
 
+      {/* 5. Gestión */}
       <div 
         className="absolute top-[80.8%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
         onMouseEnter={() => setActiveItem('gestion')}
