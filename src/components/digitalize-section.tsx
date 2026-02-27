@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -22,9 +21,7 @@ export function DigitalizeSection() {
 
   return (
     <section id="digitalize" className="scroll-mt-20">
-      {/* Contenedor principal alineado al centro con ancho máximo */}
       <div className="relative w-full max-w-[1920px] mx-auto">
-        {/* Imagen de fondo de la sección */}
         <Image
           src="/digitaliza-features_.png?v=2"
           alt="Características de Orbital: Digitalizá, Ordená, Agilizá, Centralizá"
@@ -34,11 +31,9 @@ export function DigitalizeSection() {
           priority
         />
         
-        {/* Contenedor de la computadora alineado al 6.3% */}
         {computerImage && (
           <div className="absolute top-[32%] left-[6.3%] w-[42%]">
               <div className="relative">
-                  {/* Imagen del marco de la computadora */}
                   <Image
                       src={computerImage.imageUrl}
                       alt={computerImage.description}
@@ -47,7 +42,6 @@ export function DigitalizeSection() {
                       className="w-full h-auto relative z-10 pointer-events-none"
                       data-ai-hint={computerImage.imageHint}
                   />
-                  {/* Pantalla dinámica */}
                   <div className="absolute top-[5.2%] left-[9.6%] w-[80.8%] h-[60.6%] z-20 overflow-hidden bg-black rounded-[0.5%] shadow-inner">
                       {activeImage && (
                         <Image
@@ -63,9 +57,7 @@ export function DigitalizeSection() {
           </div>
         )}
 
-        {/* Ítems interactivos alineados verticalmente en la misma línea izquierda */}
-        
-        {/* 1. Firma */}
+        {/* 1. Firma - Alineado a la izquierda del contenedor */}
         <div 
           className="absolute top-[19%] left-[58.7%] w-[35%] aspect-[6.72/1] group cursor-pointer"
           onMouseEnter={() => setActiveItem('firma')}

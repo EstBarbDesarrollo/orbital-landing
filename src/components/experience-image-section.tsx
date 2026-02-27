@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -15,7 +14,7 @@ export function ExperienceImageSection() {
       {image && (
         <div className="w-full aspect-[1920/580] relative">
           <Image
-            src={image.imageUrl}
+            src={`${image.imageUrl}${image.imageUrl.includes('?') ? '&' : '?'}v=2`}
             alt={image.description}
             width={1920}
             height={580}
@@ -25,7 +24,7 @@ export function ExperienceImageSection() {
           />
           <div className="absolute inset-0">
             {/* Contenedor posicionado con porcentajes alineado con el texto de la imagen proporcionada */}
-            <div className="absolute top-[55%] left-[10.4%] w-[50%]">
+            <div className="absolute top-[80%] left-[9%] w-[50%]">
               <div className="flex flex-row items-center gap-[1vw]">
                 <Button 
                   asChild 

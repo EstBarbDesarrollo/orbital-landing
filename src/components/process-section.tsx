@@ -26,10 +26,10 @@ export function ProcessSection() {
     <section className="py-10">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-xl md:text-2xl font-bold font-headline">
+          <h2 className="text-xl md:text-4xl font-bold font-headline text-balance">
             Empezar es simple. Evolucioná con confianza.
           </h2>
-          <p className="mt-4 text-sm text-muted-foreground max-w-lg mx-auto">
+          <p className="mt-4 md:text-lg text-muted-foreground max-w-2xl mx-auto">
             Tres pasos para transformar tu administración administrativa con el respaldo técnico de Orbital y el acompañamiento de Estudio Barbosa.
           </p>
         </div>

@@ -10,7 +10,7 @@ export function HeroSection() {
     <section className="relative bg-background overflow-hidden">
       {heroImage && (
         <Image
-          src={heroImage.imageUrl}
+          src={`${heroImage.imageUrl}${heroImage.imageUrl.includes('?') ? '&' : '?'}v=2`}
           alt={heroImage.description}
           width={1920}
           height={1080}
