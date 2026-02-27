@@ -23,8 +23,8 @@ export function ExperienceImageSection() {
             priority
           />
           <div className="absolute inset-0">
-            {/* Contenedor posicionado con porcentajes alineado con el texto de la imagen proporcionada */}
-            <div className="absolute top-[80%] left-[9%] w-[50%]">
+            {/* Alineado con el texto de la imagen (aprox 12.5% desde la izquierda y 75% desde arriba) */}
+            <div className="absolute top-[75%] left-[12.5%] w-[50%]">
               <div className="flex flex-row items-center gap-[1vw]">
                 <Button 
                   asChild 
