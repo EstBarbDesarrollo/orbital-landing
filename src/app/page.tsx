@@ -14,7 +14,7 @@ export default function Home() {
       <main className="flex-grow">
         <div className="relative">
           <HeroSection />
-          {/* Contenedor posicionado con porcentajes relativo al Hero alineado al 6.3% */}
+          {/* El valor translate-y-[40%] es el que determina cuánto "pisa" el banner la sección de abajo */}
           <div className="absolute left-[6.3%] right-[6.3%] bottom-0 translate-y-[40%] z-20">
             <FeaturesBar />
           </div>
