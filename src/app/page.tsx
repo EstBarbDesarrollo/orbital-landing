@@ -14,14 +14,14 @@ export default function Home() {
       <main className="flex-grow">
         <div className="relative">
           <HeroSection />
-          {/* El valor translate-y-[40%] es el que determina cuánto "pisa" el banner la sección de abajo */}
-          <div className="absolute left-[6.3%] right-[6.3%] bottom-0 translate-y-[40%] z-20">
+          {/* En móviles, el desplazamiento es del 85% para liberar el contenido visual del Hero. En desktop (md:), vuelve al 50%. */}
+          <div className="absolute left-[6.3%] right-[6.3%] bottom-0 translate-y-[85%] md:translate-y-[50%] z-20">
             <FeaturesBar />
           </div>
         </div>
         
-        {/* Espaciador proporcional para compensar el solapamiento del banner */}
-        <div className="h-12 md:h-20 lg:h-32"></div>
+        {/* Espaciador ajustado para evitar que el banner pise la siguiente sección en móviles tras el nuevo desplazamiento */}
+        <div className="h-24 md:h-24 lg:h-32"></div>
         
         <DigitalizeSection />
         <ExperienceImageSection />
